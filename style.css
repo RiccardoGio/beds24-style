@@ -51,3 +51,16 @@ body {
 #b24scroller .b24-selector-checkin, #b24scroller .b24-selector-checkout {
     flex-grow: 2;
 }
+
+#b24scroller .col-lg-1, #b24scroller .col-lg-10, #b24scroller .col-lg-11, #b24scroller .col-lg-12, #b24scroller .col-lg-2, #b24scroller .col-lg-3, #b24scroller .col-lg-4, #b24scroller .col-lg-5, #b24scroller .col-lg-6, #b24scroller .col-lg-7, #b24scroller .col-lg-8, #b24scroller .col-lg-9, #b24scroller .col-md-1, #b24scroller .col-md-10, #b24scroller .col-md-11, #b24scroller .col-md-12, #b24scroller .col-md-2, #b24scroller .col-md-3, #b24scroller .col-md-4, #b24scroller .col-md-5, #b24scroller .col-md-6, #b24scroller .col-md-7, #b24scroller .col-md-8, #b24scroller .col-md-9, #b24scroller .col-sm-1, #b24scroller .col-sm-10, #b24scroller .col-sm-11, #b24scroller .col-sm-12, #b24scroller .col-sm-2, #b24scroller .col-sm-3, #b24scroller .col-sm-4, #b24scroller .col-sm-5, #b24scroller .col-sm-6, #b24scroller .col-sm-7, #b24scroller .col-sm-8, #b24scroller .col-sm-9, #b24scroller .col-xs-1, #b24scroller .col-xs-10, #b24scroller .col-xs-11, #b24scroller .col-xs-12, #b24scroller .col-xs-2, #b24scroller .col-xs-3, #b24scroller .col-xs-4, #b24scroller .col-xs-5, #b24scroller .col-xs-6, #b24scroller .col-xs-7, #b24scroller .col-xs-8, #b24scroller .col-xs-9 {
+    padding-left: 0;
+    padding-right: 0;
+}
+#b24scroller .form-group select, #b24scroller .form-control, #b24scroller .input-group-addon {
+    border-radius: 0;
+    border: 2px solid var(--dark);
+    border-right: 0;
+    padding: 8px 10px;
+    height: 4rem;
+    background-color: var(--grey);
+}
