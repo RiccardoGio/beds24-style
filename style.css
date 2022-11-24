@@ -1,3 +1,11 @@
+/*------------------------------------------------------------------
+    Rentaroo styles for Beds24
+------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+    Type
+*/
+
 @font-face {
     font-family: Founders Grotesk Text;
     src: url(https://www.rentaroo.lu/fonts/founders-grotesk-text-regular.woff2) format("woff2");
@@ -7,4 +15,39 @@
 
 body {
     font-family: 'Founders Grotesk Text', sans-serif !important;
+}
+
+/*------------------------------------------------------------------
+    Colors
+*/
+:root {
+    --dark: #013140;
+    --grey: #f5f4f4;
+    --teal: #cae4db;
+    --purple: #dcd2f7;
+    --lime: #e6efcf;
+}
+
+.colorbody {
+    background-color: var(--grey);
+}
+
+/*------------------------------------------------------------------
+    Filters
+*/
+#b24scroller {
+    border: 3px solid var(--dark);
+}
+#b24scroller:first-child, #b24scroller:last-child {
+    display: none;
+}
+#b24scroller .row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+#b24scroller > * {
+    flex-grow: 1;
+}
+#b24scroller .b24-selector-checkin, #b24scroller .b24-selector-checkout {
+    flex-grow: 2;
 }
