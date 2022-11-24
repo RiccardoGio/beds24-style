@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+@font-face {
+    font-family: Founders Grotesk Text;
+    src: url(https://www.rentaroo.lu/fonts/founders-grotesk-text-regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
 body {
-    font-family: 'Space Grotesk', sans-serif !important;
+    font-family: 'Founders Grotesk Text', sans-serif !important;
 }
