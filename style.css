@@ -116,7 +116,7 @@ body {
   #b24scroller .input-group-addon {
     border-radius: 0;
     border: 2px solid var(--dark);
-    border-right: 0;
+    border-left: 0;
     padding: 8px 10px;
     height: 4rem;
     background-color: var(--grey);
@@ -132,8 +132,5 @@ body {
   #b24scroller #checkout .form-control,
   #b24scroller .input-group-addon {
     background-color: var(--grey);
-  }
-  #b24scroller .col-xs-6.col-sm-2.col-md-2.col-lg-2:last-of-type {
-    border-right: 2px solid;
   }
 }
