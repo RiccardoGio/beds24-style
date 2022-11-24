@@ -38,7 +38,7 @@ body {
 #b24scroller {
     border: 3px solid var(--dark);
 }
-#b24scroller:first-child, #b24scroller:last-child {
+#b24scroller .row .col-md-1.col-lg-1:first-child, #b24scroller .row .col-md-1.col-lg-1:last-child {
     display: none;
 }
 #b24scroller .row {
