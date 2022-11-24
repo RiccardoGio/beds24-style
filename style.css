@@ -24,10 +24,10 @@ body {
 */
 :root {
     /* Directus url */
-    --urlOpen: url(;
-    --urlClose: );
-    --serverUrl: https://storageaccountdigit93d1.blob.core.windows.net/gio-site/;
-    --imgId: error;
+    --urlOpen: 'url(';
+    --urlClose: ')';
+    --serverUrl: 'https://storageaccountdigit93d1.blob.core.windows.net/gio-site/';
+    --imgId: 'error';
     --imgUrl: '' var(--urlOpen) var(--serverUrl) var(--imgId) var(--urlClose);
 
     /* Colors */
