@@ -44,6 +44,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
+    margin-right: 0;
 }
 #b24scroller > * {
     flex-grow: 1;
@@ -65,4 +66,7 @@ body {
 }
 #b24scroller #checkin .form-control[disabled], #b24scroller #checkin .form-control[readonly], #b24scroller #checkin fieldset[disabled], #b24scroller #checkin .form-control, #b24scroller .input-group-addon, #b24scroller #checkout .form-control[disabled], #b24scroller #checkout .form-control[readonly], #b24scroller #checkout fieldset[disabled], #b24scroller #checkout .form-control, #b24scroller .input-group-addon {
     background-color: var(--grey);
+}
+#b24scroller .col-xs-6.col-sm-2.col-md-2.col-lg-2:last-child {
+    border-right:2px solid;
 }
