@@ -24,7 +24,9 @@ body {
 */
 :root {
     /* Directus url */
-    --imgUrl: https://storageaccountdigit93d1.blob.core.windows.net/gio-site/;
+    --urlOpen: 'url(';
+    --urlClose: ')';
+    --imgUrl: 'https://storageaccountdigit93d1.blob.core.windows.net/gio-site/';
 
     /* Colors */
   --dark: #013140;
@@ -141,7 +143,7 @@ body {
 
   #b24scroller .glyphicon-calendar:before {
     content: '';
-    background-image: url('var(--imgUrl)7a66dabd-63d1-4c69-b747-fb54f96cfdf7.svg');
+    background-image: var(--urlOpen) var(--imgUrl) '7a66dabd-63d1-4c69-b747-fb54f96cfdf7.svg' var(--urlClose);
     background-size: cover;
     width: 12px;
     height: 12px;
