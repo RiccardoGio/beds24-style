@@ -2,6 +2,7 @@
     Rentaroo styles for Beds24
 ------------------------------------------------------------------*/
 
+
 /*------------------------------------------------------------------
     Type
 */
@@ -19,9 +20,13 @@ body {
 }
 
 /*------------------------------------------------------------------
-    Colors
+    Variables
 */
 :root {
+    /* Directus url */
+    --imgUrl: https://storageaccountdigit93d1.blob.core.windows.net/gio-site/;
+
+    /* Colors */
   --dark: #013140;
   --grey: #f5f4f4;
   --teal: #cae4db;
@@ -135,7 +140,11 @@ body {
   }
 
   #b24scroller .glyphicon-calendar:before {
-    content: url('https://storageaccountdigit93d1.blob.core.windows.net/gio-site/7a66dabd-63d1-4c69-b747-fb54f96cfdf7.svg');
+    content: '';
+    background-image: url('var(--imgUrl)7a66dabd-63d1-4c69-b747-fb54f96cfdf7.svg');
+    background-size: cover;
+    width: 12px;
+    height: 12px;
   }
 }
 
