@@ -130,7 +130,7 @@ body {
     background-color: var(--grey);
   }
   #b24scroller #checkin .input-group-addon {
-    border-left: 2x solid;
+    border-left: 2px solid;
   }
   #b24scroller #checkin .form-control[disabled],
   #b24scroller #checkin .form-control[readonly],
@@ -159,7 +159,7 @@ body {
     Room Top
   */
   .b24room .b24panel-room .row .clearfix {
-    display: none;
+    display: none !important;
   }
  .b24room .panel-body {
     padding: 0;
