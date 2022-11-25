@@ -136,12 +136,11 @@ body {
     background-color: var(--grey);
   }
 
-  #b24scroller .glyphicon-calendar:before {
-    content: '';
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/7a66dabd-63d1-4c69-b747-fb54f96cfdf7.svg) ;
+  #b24scroller .glyphicon-calendar {
+    width: 18px;
+    height: 18px;
+    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/7a66dabd-63d1-4c69-b747-fb54f96cfdf7.svg);
     background-size: cover;
-    width: 12px;
-    height: 12px;
   }
 }
 
