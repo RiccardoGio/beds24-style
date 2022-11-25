@@ -35,6 +35,14 @@ body {
 }
 
 /*------------------------------------------------------------------
+    Media queries: General (S M L XL)
+------------------------------------------------------------------*/
+#b24scroller {
+    border: 3px solid var(--dark);
+  }
+
+
+/*------------------------------------------------------------------
     Media queries: L & XL
 ------------------------------------------------------------------*/
 
@@ -42,9 +50,7 @@ body {
   /*------------------------------------------------------------------
     Filters
 */
-  #b24scroller {
-    border: 3px solid var(--dark);
-  }
+
   #b24scroller .row .col-md-1.col-lg-1:first-child,
   #b24scroller .row .col-md-1.col-lg-1:last-child {
     display: none;
@@ -123,6 +129,9 @@ body {
     height: 4rem;
     background-color: var(--grey);
   }
+  #b24scroller #checkin .input-group-addon {
+    border-left: 2x solid;
+  }
   #b24scroller #checkin .form-control[disabled],
   #b24scroller #checkin .form-control[readonly],
   #b24scroller #checkin fieldset[disabled],
@@ -145,6 +154,19 @@ body {
   #b24scroller .glyphicon-calendar:before {
     display: none;
   }
+
+  /*------------------------------------------------------------------
+    Room Top
+  */
+  .b24room .b24panel-room .row .clearfix {
+    display: none;
+  }
+ .b24room .panel-body {
+    padding: 0;
+ }
+ .b24room .b24-room-slider {
+    padding: 0;
+ }
 }
 
 
