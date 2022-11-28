@@ -31,6 +31,7 @@ body {
     /* Colors */
   --dark: #013140;
   --grey: #f5f4f4;
+  --white: #ffffff;
   --teal: #cae4db;
   --purple: #dcd2f7;
   --lime: #e6efcf;
@@ -179,10 +180,11 @@ body {
     padding: 0;
  }
 
- .b24panel .row  {
+ .b24panel > .row  {
   margin-left: 0;
   margin-right: 0;
   border-right: var(--b-m) solid var(--dark);
+  background-color: var(--white);
 }
 
 .b24panel .row .b24module {
@@ -207,6 +209,7 @@ body {
   border: var(--b-m) solid var(--dark);
   border-bottom: 4px solid;
   border-top: 0;
+  background-color: var(--white);
 
  }
  .offer hr {
