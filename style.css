@@ -23,6 +23,11 @@ body {
     Variables
 */
 :root {
+    /* Borders */
+    --b-s: 2px;
+    --b-m: 3px;
+    --b-l: 4px;
+
     /* Colors */
   --dark: #013140;
   --grey: #f5f4f4;
@@ -38,7 +43,7 @@ body {
     Media queries: General (S M L XL)
 ------------------------------------------------------------------*/
 #b24scroller {
-    border: 3px solid var(--dark);
+    border: var(--b-m) solid var(--dark);
   }
 
 
@@ -123,14 +128,14 @@ body {
   #b24scroller .date .form-control,
   #b24scroller .input-group-addon {
     border-radius: 0;
-    border: 2px solid var(--dark);
+    border: var(--b-s) solid var(--dark);
     border-left: 0;
     padding: 8px 10px;
     height: 4rem;
     background-color: var(--grey);
   }
   #b24scroller #checkin .input-group-addon {
-    border-left: 2px solid;
+    border-left: var(--b-s) solid;
   }
   #b24scroller #checkin .form-control[disabled],
   #b24scroller #checkin .form-control[readonly],
@@ -159,20 +164,26 @@ body {
     Room Top
   */
 
-  .b24panel row  {
-    margin-left: 0;
-    margin-right: 0;
+  .b24-roompanel-heading {
+    border: var(--b-m) solid var(--dark);
+    border-bottom: var(--b-s) solid;
   }
-
   .b24room .b24panel-room .row .clearfix {
     display: none !important;
   }
+
  .b24room .panel-body {
     padding: 0;
  }
+
+ .b24panel .row  {
+  margin-left: 0;
+  margin-right: 0;
+}
  .b24room .b24-room-slider {
     padding: 0;
-    border: 2px 2px 3px 3px solid var(--dark);
+    border: var(--b-m) solid var(--dark);
+    border-right: var(--b-s) solid;
  }
 }
 
