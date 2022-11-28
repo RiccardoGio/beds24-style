@@ -166,6 +166,10 @@ body {
   /*------------------------------------------------------------------
     Room Top
   */
+  .b24panel-room {
+    margin-bottom: 32px;
+    border: 0;
+  }
   .colorbookingform, .b24panel {
     background-color: transparent;
   }
@@ -185,7 +189,6 @@ body {
   border: var(--b-m) solid var(--dark);
   border-top: 0;
   background-color: var(--white);
-  margin-bottom: 32px;
  }
 
  .b24panel > .row  {
@@ -217,6 +220,17 @@ body {
   display: none;
  }
 
+.offer .multiroomhide div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.offer .multiroomhide div > div {
+  display: inline-block;
+  padding: 16px;
+}
+
+/* Debug */
  .offer > * {
   border: 1px solid red
  }
