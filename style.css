@@ -179,12 +179,16 @@ body {
  .b24room .panel-body {
     padding: 0;
  }
+ .b24panel {
+  border: var(--b-m) solid var(--dark);
+  background-color: var(--white);
+ }
 
  .b24panel > .row  {
   margin-left: 0;
   margin-right: 0;
-  border-right: var(--b-m) solid var(--dark);
-  background-color: var(--white);
+  /* border-right: var(--b-m) solid var(--dark); */
+  /* background-color: var(--white); */
 }
 
 .b24panel .row .b24module {
@@ -203,8 +207,8 @@ body {
  */
  .offer {
   width: 58.33333333%;
-  margin-left: 41.66666667%;
-  margin-top: -4px;
+  /* margin-left: 41.66666667%; */
+  /* margin-top: -4px; */
   padding: 16px;
   border: var(--b-m) solid var(--dark);
   border-bottom: 4px solid;
