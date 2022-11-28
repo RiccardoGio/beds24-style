@@ -183,13 +183,13 @@ body {
   }
 
  .b24room .panel-body {
-    padding: 0;
+    padding: 0 0 16px 0;
+
  }
  .b24panel {
   border: var(--b-m) solid var(--dark);
   border-top: 0;
   background-color: var(--white);
-  padding-bottom: 16px;
  }
 
  .b24panel > .row  {
@@ -221,6 +221,10 @@ body {
   display: none;
  }
 
+ .offer .multiroomhide {
+  transform: translateY(-80%);
+ }
+
 .offer .multiroomhide div:nth-child(2) {
   display: flex;
   flex-direction: row;
@@ -230,6 +234,18 @@ body {
 .offer .multiroomhide div > div {
   display: inline-block;
   padding: 0 8px;
+}
+.offer .button {
+    border: 3px solid;
+    border-radius: 0;
+}
+.offer .button:hover {
+  background: var(--teal);
+  color: var(--dark);
+  border: 3px solid var(--dark);
+}
+.offer .b24-offer-summary {
+  opacity: .5;
 }
 
 /* Debug */
