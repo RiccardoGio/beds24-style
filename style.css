@@ -182,7 +182,13 @@ body {
  .b24panel .row  {
   margin-left: 0;
   margin-right: 0;
+  border-right: var(--b-m) solid var(--dark);
 }
+
+.b24panel .row .b24module {
+  padding: 16px;
+}
+
  .b24room .b24-room-slider {
     padding: 0;
     border: var(--b-m) solid var(--dark);
