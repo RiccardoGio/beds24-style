@@ -167,43 +167,43 @@ body {
   /*------------------------------------------------------------------
     Room Top
   */
-  .b24panel-room {
+  .b24fullcontainer-rooms .b24panel-room {
     margin-bottom: 32px;
     border: 0;
   }
-  .colorbookingform, .b24panel {
+  .b24fullcontainer-rooms .colorbookingform, .b24panel {
     background-color: transparent;
   }
 
-  .b24-roompanel-heading {
+  .b24fullcontainer-rooms .b24-roompanel-heading {
     border: var(--b-m) solid var(--dark);
     border-bottom: var(--b-s) solid;
   }
-  .b24room .b24panel-room .row .clearfix {
+  .b24fullcontainer-rooms .b24room .b24panel-room .row .clearfix {
     display: none !important;
   }
 
- .b24room .panel-body {
+  .b24fullcontainer-rooms .b24room .panel-body {
     padding: 0 0 16px 0;
 
  }
- .b24panel {
+ .b24fullcontainer-rooms .b24panel {
   border: var(--b-m) solid var(--dark);
   border-top: 0;
   background-color: var(--white);
  }
 
- .b24panel > .row  {
+ .b24fullcontainer-rooms .b24panel > .row  {
   margin-left: 0;
   margin-right: 0;
   border-bottom: var(--b-s) solid var(--dark);
 }
 
-.b24panel .row .b24module {
+.b24fullcontainer-rooms .b24panel .row .b24module {
   padding: 16px;
 }
 
- .b24room .b24-room-slider {
+.b24fullcontainer-rooms .b24room .b24-room-slider {
     padding: 0;
     border: 0;
     border-right: var(--b-s) solid var(--dark);
@@ -212,43 +212,43 @@ body {
  /*------------------------------------------------------------------
   Offer
  */
- .offer {
+ .b24fullcontainer-rooms .offer {
   width: 100%;
   padding: 16px 16px 0;
   background-color: var(--white);
 
  }
- .offer hr {
+ .b24fullcontainer-rooms .offer hr {
   display: none;
  }
 
- .offer .multiroomhide {
+ .b24fullcontainer-rooms .offer .multiroomhide {
   transform: translateY(-50%);
  }
 
-.offer .multiroomhide div:nth-child(2) {
+ .b24fullcontainer-rooms .offer .multiroomhide div:nth-child(2) {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: end;
 }
-.offer .multiroomhide div > div {
+.b24fullcontainer-rooms .offer .multiroomhide div > div {
   display: inline-block;
   padding: 0 8px;
 }
-.offer .button {
+.b24fullcontainer-rooms .offer .button {
     border: 3px solid;
     border-radius: 0;
 }
-.offer .button:hover {
+.b24fullcontainer-rooms .offer .button:hover {
   background: var(--teal);
   color: var(--dark);
   border: 3px solid var(--dark);
 }
-.offer .b24-offer-summary {
+.b24fullcontainer-rooms .offer .b24-offer-summary {
   opacity: .5;
 }
-.offer .at_offername {
+.b24fullcontainer-rooms .offer .at_offername {
   padding-bottom: 0;
 }
 
