@@ -163,6 +163,9 @@ body {
   /*------------------------------------------------------------------
     Room Top
   */
+  .colorbookingform, .b24panel {
+    background-color: transparent;
+  }
 
   .b24-roompanel-heading {
     border: var(--b-m) solid var(--dark);
@@ -193,9 +196,17 @@ body {
  .offer {
   width: 58.33333333%;
   margin-left: 41.66666667%;
+  margin-top: -4px;
   padding: 16px;
-  border: var(--b-s) solid var(--dark);
+  border: var(--b-m) solid var(--dark);
+  border-bottom: 4px solid;
+  border-top: 0;
+
  }
+ .offer hr {
+  display: none;
+ }
+
 
 }
 
