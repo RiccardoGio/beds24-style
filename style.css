@@ -158,6 +158,12 @@ body {
   /*------------------------------------------------------------------
     Room Top
   */
+
+  .b24panel row  {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .b24room .b24panel-room .row .clearfix {
     display: none !important;
   }
@@ -166,6 +172,7 @@ body {
  }
  .b24room .b24-room-slider {
     padding: 0;
+    border: 2px 2px 3px 3px solid var(--dark);
  }
 }
 
