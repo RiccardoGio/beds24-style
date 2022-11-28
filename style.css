@@ -56,7 +56,9 @@ body {
   /*------------------------------------------------------------------
     Filters
 */
-
+  #b24scroller .b24-bookingstrip {
+    margin-bottom: 32px;
+  }
   #b24scroller .row .col-md-1.col-lg-1:first-child,
   #b24scroller .row .col-md-1.col-lg-1:last-child {
     display: none;
@@ -215,6 +217,15 @@ body {
   display: none;
  }
 
+ .offer > * {
+  border: 1px solid red
+ }
+ .offer > * > * {
+  border: 1px solid green
+ }
+ .offer > * > * > * {
+  border: 1px solid rebeccapurple;
+ }
 
 }
 
