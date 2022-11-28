@@ -17,6 +17,8 @@
 
 body {
   font-family: 'Founders Grotesk Text', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*------------------------------------------------------------------
