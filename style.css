@@ -184,7 +184,19 @@ body {
     padding: 0;
     border: var(--b-m) solid var(--dark);
     border-right: var(--b-s) solid;
+    border-top: 0;
  }
+
+ /*------------------------------------------------------------------
+  Offer
+ */
+ .offer {
+  width: 58.33333333%;
+  margin-left: 41.66666667%;
+  padding: 16px;
+  border: var(--b-s) solid var(--dark);
+ }
+
 }
 
 
