@@ -206,13 +206,11 @@ body {
   Offer
  */
  .offer {
-  width: 58.33333333%;
+  width: 100%;
   /* margin-left: 41.66666667%; */
   /* margin-top: -4px; */
   padding: 16px;
-  border: var(--b-m) solid var(--dark);
-  border-bottom: 4px solid;
-  border-top: 0;
+  border-top: var(--b-s) solid var(--dark);
   background-color: var(--white);
 
  }
