@@ -203,6 +203,23 @@ body {
   padding: 16px;
 }
 
+.b24-room-module {
+  padding: 8px 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.glyphicon-info-sign:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/96c8fbe8-8331-4d7a-81e1-e95509f76160.svg);
+  background-size: contain;
+}
+7a371c73-4139-4b01-bfcd-4884fed9df01.svg
+
+
 /* Slider */
 .b24fullcontainer-rooms .b24room .b24-room-slider {
     padding: 0;
@@ -264,12 +281,11 @@ body {
 ol.carousel-indicators {
   bottom: 0;
   left: 0;
-  padding: 8px;
+  padding: 11px;
   margin: 0;
   position: absolute;
   z-index: 15;
   width: auto;
-  padding-left: 0;
   margin-left: 0;
   text-align: center;
   list-style: none;
@@ -281,7 +297,7 @@ ol.carousel-indicators li {
   display: inline-block;
   width: 16px;
   height: 16px;
-  margin: 0 4px;
+  margin: 0 2px;
   text-indent: -999px;
   cursor: pointer;
   background-color: var(--teal);
