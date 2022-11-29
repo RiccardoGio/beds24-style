@@ -273,21 +273,27 @@ ol.carousel-indicators {
   margin-left: 0;
   text-align: center;
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 ol.carousel-indicators li {
   display: inline-block;
   width: 16px;
   height: 16px;
-  margin: 1px;
+  margin: 0 4px;
   text-indent: -999px;
   cursor: pointer;
   background-color: var(--teal);
-  background-color: transparent;
   border: var(--b-s) solid var(--dark);
   border-radius: 16px;
 }
 ol.carousel-indicators li.active {
-  background-color: var(--purple);
+  background-color: transparent;
+  width: 16px;
+  height: 16px;
+  margin: 0 4px;
+
 }
 
  /*------------------------------------------------------------------
