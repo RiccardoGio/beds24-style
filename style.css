@@ -223,6 +223,7 @@ body {
 }
  .carousel-control {
   position: absolute;
+  top: auto;
   bottom: 0;
   height: 40px;
   width: 40px;
@@ -235,12 +236,21 @@ body {
   background-color: var(--teal);
   border-top: var(--b-s) solid var(--dark);
   border-left: var(--b-s) solid var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .carousel-control.right {
   right: 0;
 }
 .carousel-control.left {
   right: 38px;
+  left: auto;
+}
+.carousel-control .glyphicon {
+  display: inline-block;
+  width: auto;
+  height: auto;
 }
 
 
