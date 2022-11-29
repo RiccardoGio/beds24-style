@@ -203,11 +203,46 @@ body {
   padding: 16px;
 }
 
+/* Slider */
 .b24fullcontainer-rooms .b24room .b24-room-slider {
     padding: 0;
     border: 0;
     border-right: var(--b-s) solid var(--dark);
  }
+ .glyphicon-chevron-right:before, .glyphicon-chevron-left:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+ }
+ .glyphicon-chevron-right:before {
+   background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/96c8fbe8-8331-4d7a-81e1-e95509f76160.svg);
+ }
+ .glyphicon-chevron-left:before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/66ab5bf3-429e-4b95-94e9-e8e3a4134c88.svg);
+}
+ .carousel-control {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  color: darkblue;
+  text-align: center;
+  text-shadow: none;
+  filter: alpha(opacity=50);
+  opacity: 1;
+  background-color: var(--teal);
+  border-top: var(--b-s) solid var(--dark);
+  border-left: var(--b-s) solid var(--dark);
+}
+.carousel-control.right {
+  right: 0;
+}
+.carousel-control.left {
+  right: 38px;
+}
+
 
  /*------------------------------------------------------------------
   Offer
