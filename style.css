@@ -234,7 +234,7 @@ ul.rentaroo-main-features {
   grid-auto-flow: row;
 }
 /* icons */
-.rentaroo-main-features .icon {
+.rentaroo-main-features .icon::before {
   content: '';
   display: inline-block;
   width: 16px;
