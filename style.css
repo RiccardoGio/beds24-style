@@ -289,6 +289,18 @@ ul.rentaroo-main-features {
   background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/a2ca3e83-6df0-4196-b588-d43cf961bc32.svg);
 }
 
+/* Room features */
+.b24-room-module .b24-features {
+  display: flex;
+  flex-direction: column;
+}
+.b24-room-module .b24-feature {
+  position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+}
+
 /* Slider */
 .b24fullcontainer-rooms .b24room .b24-room-slider {
     padding: 0;
