@@ -220,6 +220,20 @@ body {
   vertical-align: middle;
 }
 
+/* Main Features list */
+ul.rentaroo-main-features {
+  list-style-type: none;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 16px 16px;
+  justify-items: start;
+  grid-auto-flow: row;
+}
+
 
 /* Slider */
 .b24fullcontainer-rooms .b24room .b24-room-slider {
