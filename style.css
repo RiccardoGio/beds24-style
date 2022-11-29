@@ -40,8 +40,8 @@ sup {
   --white: #ffffff;
   --teal: #cae4db;
   --purple: #dcd2f7;
-  --light-purple: #e5e1ed;
-  --dark-purple: #625583;
+  --light-purple: #dcd2f7;
+  --dark-purple: #dcd2f7;
   --lime: #e6efcf;
 }
 .colorbody {
@@ -248,12 +248,13 @@ ul.rentaroo-main-features {
   flex-direction: row;
   flex-wrap: nowrap;
   line-height: 1.2em;
-  padding: 4px 8px;
+  padding: 4px 10px;
   border-radius: 20px;
   background-color: var(--light-purple);
   color: var(--dark-purple);
   white-space: nowrap;
   margin-bottom: 12px;
+  margin-right: 8px;
 }
 
 /* icons */
@@ -265,7 +266,7 @@ ul.rentaroo-main-features {
   vertical-align: middle;
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 2px 8px;
+  margin: 2px 6px 2px;
 }
 .rentaroo-main-features .shared-icon::before {
   background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/9bee1f4f-e3f6-440e-ac18-13bbbeffc72e.svg);
