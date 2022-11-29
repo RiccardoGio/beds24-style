@@ -217,15 +217,23 @@ sup {
   padding-left: 16px;
   padding-right: 16px;
 }
-.glyphicon-info-sign:before {
+.glyphicon-info-sign::before, .glyphicon-remove::before {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/7a371c73-4139-4b01-bfcd-4884fed9df01.svg);
   background-size: contain;
   display: inline-block;
   vertical-align: middle;
 }
+.glyphicon-info-sign::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/9f23b940-3a6c-4c87-8553-26f725ca5471.svg);
+}
+.glyphicon-remove::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/77d716d1-21f2-4f0f-8489-2f348a46b8be.svg);
+}
+
+
+.glyphicon-remove:before
 
 /* Main Features list */
 ul.rentaroo-main-features {
@@ -283,9 +291,6 @@ ul.rentaroo-main-features {
 .rentaroo-main-features .terrace-icon::before {
   background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/a2ca3e83-6df0-4196-b588-d43cf961bc32.svg);
 }
-
-
-
 
 /* Slider */
 .b24fullcontainer-rooms .b24room .b24-room-slider {
