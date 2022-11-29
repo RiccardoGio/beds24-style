@@ -40,6 +40,8 @@ sup {
   --white: #ffffff;
   --teal: #cae4db;
   --purple: #dcd2f7;
+  --light-purple: #e5e1ed;
+  --dark-purple: #625583;
   --lime: #e6efcf;
 }
 .colorbody {
@@ -231,13 +233,29 @@ ul.rentaroo-main-features {
   width: 100%;
   height: auto;
   padding: 0;
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap: 16px 16px;
   justify-items: start;
-  grid-auto-flow: row;
+  grid-auto-flow: row; */
 }
+.rentaroo-main-features li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  line-height: 1.2em;
+  padding: 4px 8px;
+  border-radius: 20px;
+  background-color: var(--light-purple);
+  color: var(--dark-purple);
+  white-space: nowrap;
+  margin-bottom: 12px;
+}
+
 /* icons */
 .rentaroo-main-features .icon::before {
   content: '';
@@ -246,7 +264,8 @@ ul.rentaroo-main-features {
   height: 16px;
   vertical-align: middle;
   background-size: contain;
-  margin: 4px 8px;
+  background-repeat: no-repeat;
+  margin: 2px 8px;
 }
 .rentaroo-main-features .shared-icon::before {
   background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/9bee1f4f-e3f6-440e-ac18-13bbbeffc72e.svg);
@@ -264,12 +283,6 @@ ul.rentaroo-main-features {
   background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/2b9f3284-4409-41ba-89e5-ce49f8fad940.svg);
 }
 
-.rentaroo-main-features li {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  line-height: 1.2em;
-}
 
 
 
