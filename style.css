@@ -216,6 +216,8 @@ body {
   height: 24px;
   background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/7a371c73-4139-4b01-bfcd-4884fed9df01.svg);
   background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 
