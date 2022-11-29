@@ -308,6 +308,12 @@ ul.rentaroo-main-features {
 .b24-room-module .b24-feature .b24-featurewell p {
   display: inline-block;
 }
+.b24-room-module .b24-feature .b24-featurewell p::after {
+  content: ', ';
+}
+.b24-room-module .b24-feature .b24-featurewell p:last-child::after {
+  content: '.';
+}
 
 
 /* Slider */
