@@ -20,6 +20,11 @@ body {
   font-weight: normal !important;
 }
 
+sup {
+  line-height: normal;
+  top: auto;
+}
+
 /*------------------------------------------------------------------
     Variables
 */
@@ -241,7 +246,7 @@ ul.rentaroo-main-features {
   height: 16px;
   vertical-align: middle;
   background-size: contain;
-  margin-right: 4px 8px;
+  margin: 4px 8px;
 }
 .rentaroo-main-features .shared-icon::before {
   background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/9bee1f4f-e3f6-440e-ac18-13bbbeffc72e.svg);
