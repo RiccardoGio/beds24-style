@@ -214,6 +214,7 @@ body {
   width: 24px;
   height: 24px;
   background-size: cover;
+  display: block;
  }
  .glyphicon-chevron-right:before {
    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/96c8fbe8-8331-4d7a-81e1-e95509f76160.svg);
@@ -247,10 +248,13 @@ body {
   right: 38px;
   left: auto;
 }
-.carousel-control .glyphicon {
+.carousel .carousel-control .glyphicon {
   display: inline-block;
   width: auto;
   height: auto;
+  position: relative;
+  left: auto;
+  top: auto;
 }
 
 
