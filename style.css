@@ -261,6 +261,34 @@ body {
   margin-left: 0;
 }
 
+ol.carousel-indicators {
+  bottom: 0;
+  left: 0;
+  padding: 8px;
+  margin: 0;
+  position: absolute;
+  z-index: 15;
+  width: auto;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  list-style: none;
+}
+ol.carousel-indicators li {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: var(--teal);
+  background-color: transparent;
+  border: var(--b-s) solid var(--dark);
+  border-radius: 16px;
+}
+ol.carousel-indicators li.active {
+  background-color: var(--purple);
+}
 
  /*------------------------------------------------------------------
   Offer
