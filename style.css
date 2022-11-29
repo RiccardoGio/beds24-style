@@ -314,7 +314,9 @@ ul.rentaroo-main-features {
 .b24-room-module .b24-feature .b24-featurewell p:last-child::after {
   content: '.';
 }
-
+.b24-room-module .b24-feature .b24-featurewell p .glyphicon {
+  display: none;
+}
 
 /* Slider */
 .b24fullcontainer-rooms .b24room .b24-room-slider {
