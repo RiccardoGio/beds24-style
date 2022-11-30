@@ -64,6 +64,11 @@ sup {
   /*------------------------------------------------------------------
     Filters
 */
+.b24scroller-fullcontainer {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
   #b24scroller .b24-bookingstrip {
     margin-bottom: 32px;
   }
