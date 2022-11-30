@@ -69,9 +69,11 @@ sup {
   top: 0;
   z-index: 999;
 }
-  #b24scroller .b24-bookingstrip {
-    margin-bottom: 32px;
-  }
+#b24scroller.b24-bookingstrip {
+  margin-bottom: 0;
+  box-shadow: 0 12px 12px rgb(138 138 138 / 15%);
+}
+
   #b24scroller .row .col-md-1.col-lg-1:first-child,
   #b24scroller .row .col-md-1.col-lg-1:last-child {
     display: none;
@@ -179,6 +181,11 @@ sup {
   /*------------------------------------------------------------------
     Room Top
   */
+
+  .b24fullcontainer-rooms {
+    padding-top: 24px;
+  }
+
   .b24fullcontainer-rooms .b24panel-room {
     margin-bottom: 32px;
     border: 0;
