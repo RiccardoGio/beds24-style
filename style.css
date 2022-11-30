@@ -321,6 +321,17 @@ ul.rentaroo-main-features {
   display: none;
 }
 
+/* Room features icons */
+.b24-featurewell .fa-briefcase:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/a2ca3e83-6df0-4196-b588-d43cf961bc32.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /* Slider */
 .b24fullcontainer-rooms .b24room .b24-room-slider {
     padding: 0;
