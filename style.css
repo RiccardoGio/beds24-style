@@ -505,6 +505,13 @@ footer {
 /* Payment step  */
 #bookingpage .border {
   border: var(--b-m) solid var(--dark);
+  border-bottom: 0;
+}
+#bookingpage .b24-creditcard, #bookingpage .b24-bookingdetails {
+  border-bottom: var(--b-m) solid var(--dark);
+}
+#bookingpage .panel {
+  margin-bottom: 0;
 }
 
 /*------------------------------------------------------------------
