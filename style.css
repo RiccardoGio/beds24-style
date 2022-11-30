@@ -167,9 +167,6 @@ footer {
   #inputcheckin, #inputcheckout {
     text-align: left;
   }
-  #b24scroller .input-group-addon {
-    display: initial!important;
-  }
   #b24scroller .glyphicon-calendar {
     width: 18px;
     height: 18px;
