@@ -139,10 +139,15 @@ footer {
   #b24scroller .input-group-addon {
     border-radius: 0;
     border: var(--b-s) solid var(--dark);
+    border-left: 0;
     padding: 8px 10px;
     height: 4rem;
     background-color: var(--grey);
   }
+  #b24scroller #inputcheckin, #b24scroller #inputnumadult {
+    border-left: var(--b-s) solid;
+  }
+
   .b24-selector-checkin .form-group, .b24-selector-checkout .form-group {
     border: 0;
     text-align: left;
