@@ -481,11 +481,8 @@ footer {
     background-color: hsl(55deg 62% 88%);
     border-color: hsl(49deg 37% 81%);
   }
-.b24fullcontainer-rooms .offer .multiroomhide {
-  transform: translateY(-50%);
-  text-align: right;
-}
-.b24fullcontainer-rooms .offer .multiroomhide div:nth-child(2) {
+
+.b24fullcontainer-rooms .offer .multiroomhide > div:nth-child(2) {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -564,6 +561,12 @@ footer {
   grid-area: features;
   justify-self: stretch;
  }
-
+/*------------------------------------------------------------------
+  Offer
+*/
+.b24fullcontainer-rooms .offer .multiroomhide {
+  transform: translateY(-50%);
+  text-align: right;
+}
 
 }
