@@ -531,16 +531,21 @@ footer {
  .b24panel > .row {
   display: grid;
   grid-template-columns: 41.66666667% 1fr;
-  grid-template-areas: "slider aside";
+  grid-template-areas: "slider aside" "slider aside" ;
   gap: 0;
   justify-items: stretch;
  }
  .b24-room-slider {
+  width: 100%;
   grid-area: slider;
   align-self: stretch;
   justify-self: stretch;
  }
+ .b24-room-slider .carousel {
+  height: 100%;
+ }
  .b24-room-desc, b24-room-106 {
+   width: 100%;
   grid-area: aside;
   justify-self: stretch;
  }
