@@ -184,6 +184,11 @@ footer {
   /*------------------------------------------------------------------
     Room section
   */
+  .b24fullcontainer-rooms .b24panel > .row {
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: var(--b-s) solid var(--dark);
+  }
   .b24fullcontainer-rooms {
     padding-top: 24px;
   }
@@ -196,7 +201,7 @@ footer {
     background-color: var(--white);
   }
   .b24fullcontainer-rooms .b24-roompanel-heading {
-    border: var(--b-m) solid var(--dark);
+    border: 0;
     border-bottom: var(--b-s) solid;
   }
   .b24fullcontainer-rooms .b24room .b24panel-room .row .clearfix {
@@ -206,8 +211,7 @@ footer {
     padding: 0 0 16px 0;
   }
   .b24fullcontainer-rooms .b24panel {
-    border: var(--b-m) solid var(--dark);
-    border-top: 0;
+    border: 0;
     background-color: var(--white);
   }
   .b24fullcontainer-rooms .b24panel .row .b24module {
@@ -475,9 +479,6 @@ footer {
   */
 
   .b24fullcontainer-rooms .b24panel > .row {
-    margin-left: 0;
-    margin-right: 0;
-    border-bottom: var(--b-s) solid var(--dark);
     display: grid;
     grid-template-columns: 41.66666667% 1fr;
     grid-template-areas: "slider description" "slider features" ;
