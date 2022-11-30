@@ -528,7 +528,7 @@ footer {
  /*------------------------------------------------------------------
   Text Grid
  */
- .b24-panel .row {
+ .b24panel > .row {
   display: grid;
   grid-template-columns: 41.66666667% 1fr;
   grid-template-areas: "slider aside";
