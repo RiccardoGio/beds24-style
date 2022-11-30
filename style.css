@@ -502,6 +502,11 @@ footer {
   padding: 0 8px;
 }
 
+/* Payment step  */
+#bookingpage .border {
+  border: var(--b-m) solid var(--dark);
+}
+
 /*------------------------------------------------------------------
     Media queries: L & XL
 ------------------------------------------------------------------*/
