@@ -460,6 +460,7 @@ footer {
     border: 3px solid;
     border-radius: 0;
     max-width: 260px;
+    min-width: 130px;
   }
   .b24fullcontainer-rooms .offer .button:hover {
     background: var(--teal);
@@ -481,6 +482,7 @@ footer {
   .b24-roomwarn {
     padding: 8px 16px;
     display: inline-block;
+    border-radius: 0;
   }
 
   .alert-danger {
