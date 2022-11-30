@@ -190,7 +190,6 @@ footer {
   /*------------------------------------------------------------------
     Room Top
   */
-
   .b24fullcontainer-rooms {
     padding-top: 24px;
   }
@@ -225,6 +224,11 @@ footer {
     margin-left: 0;
     margin-right: 0;
     border-bottom: var(--b-s) solid var(--dark);
+    display: grid;
+    grid-template-columns: 41.66666667% 1fr;
+    grid-template-areas: "slider description" "slider features" ;
+    gap: 0;
+    justify-items: stretch;
   }
 
   .b24fullcontainer-rooms .b24panel .row .b24module {
@@ -373,6 +377,10 @@ footer {
     padding: 0;
     border: 0;
     border-right: var(--b-s) solid var(--dark);
+    width: 100%;
+    grid-area: slider;
+    align-self: stretch;
+    justify-self: stretch;
   }
   .glyphicon-chevron-right::before,
   .glyphicon-chevron-left::before {
@@ -459,6 +467,19 @@ footer {
     height: 16px;
     margin: 0 4px;
   }
+  .b24-room-slider .carousel {
+    height: 100%;
+   }
+   .b24-room-desc {
+     width: 100%;
+    grid-area: description;
+    justify-self: stretch;
+   }
+  .b24-room-106 {
+    width: 100%;
+   grid-area: features;
+   justify-self: stretch;
+  }
 
   /*------------------------------------------------------------------
   Offer
@@ -524,34 +545,4 @@ footer {
   border: 1px solid rebeccapurple;
  } */
 
-
- /*------------------------------------------------------------------
-  Text Grid
- */
- .b24panel > .row {
-  display: grid;
-  grid-template-columns: 41.66666667% 1fr;
-  grid-template-areas: "slider description" "slider features" ;
-  gap: 0;
-  justify-items: stretch;
- }
- .b24-room-slider {
-  width: 100%;
-  grid-area: slider;
-  align-self: stretch;
-  justify-self: stretch;
- }
- .b24-room-slider .carousel {
-  height: 100%;
- }
- .b24-room-desc {
-   width: 100%;
-  grid-area: description;
-  justify-self: stretch;
- }
-.b24-room-106 {
-  width: 100%;
- grid-area: features;
- justify-self: stretch;
-}
 }
