@@ -523,4 +523,25 @@ footer {
  .offer > * > * > * {
   border: 1px solid rebeccapurple;
  } */
+
+
+ /*------------------------------------------------------------------
+  Text Grid
+ */
+ .b24-panel .row {
+  display: grid;
+  grid-template-columns: 41.66666667% 1fr;
+  grid-template-areas: "slider aside";
+  gap: 0;
+  justify-items: stretch;
+ }
+ .b24-room-slider {
+  grid-area: slider;
+  align-self: stretch;
+  justify-self: stretch;
+ }
+ .b24-room-desc, b24-room-106 {
+  grid-area: aside;
+  justify-self: stretch;
+ }
 }
