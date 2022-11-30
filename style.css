@@ -300,7 +300,7 @@ ul.rentaroo-main-features {
     left: auto !important;
     right: auto !important;
     width: 100%;
-    transition: none;
+    transition: none !important;
 }
 
 .b24-room-module .b24-feature .b24-featurewell h4 {
