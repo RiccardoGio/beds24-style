@@ -352,6 +352,7 @@ footer {
       padding: 0;
       border: 0;
       width: 100%;
+      margin-bottom: 12px;
     }
     .carousel-inner {
     border-bottom: var(--b-s) solid var(--dark);
@@ -554,6 +555,7 @@ footer {
       grid-area: slider;
       align-self: stretch;
       justify-self: stretch;
+      margin-bottom: 0;
     }
 
    /* Aside */
