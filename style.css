@@ -300,13 +300,16 @@ ul.rentaroo-main-features {
     left: auto !important;
     right: auto !important;
     width: 100%;
+    transition: none;
 }
 
 .b24-room-module .b24-feature .b24-featurewell h4 {
   display: block;
+  color: var(--dark-purple);
 }
 .b24-room-module .b24-feature .b24-featurewell p {
   display: inline-block;
+  color: var(--dark-purple);
 }
 .b24-room-module .b24-feature .b24-featurewell p::after {
   content: ', ';
