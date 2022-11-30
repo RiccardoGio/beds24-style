@@ -214,7 +214,9 @@ footer {
   #b24scroller .b24-selector-checkout {
     flex-grow: 2;
   }
-
+  #b24scroller #inputcheckin, #b24scroller #inputnumadult {
+    border-left: 0;
+  }
   /*------------------------------------------------------------------
     Room Top
   */
