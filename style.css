@@ -181,58 +181,20 @@ footer {
     display: none;
   }
 
-/*------------------------------------------------------------------
-    Media queries: L & XL
-------------------------------------------------------------------*/
-
-@media screen and (min-width: 768px) {
   /*------------------------------------------------------------------
-    Filters
-*/
-  #b24scroller-fullcontainer {
-    position: sticky;
-    top: 57px;
-    z-index: 999;
-  }
-  #b24scroller.b24-bookingstrip {
-    margin-bottom: 0;
-    margin-top: 0;
-    box-shadow: 0 12px 12px rgb(138 138 138 / 15%);
-  }
-
-  #b24scroller .row .col-md-1.col-lg-1:first-child,
-  #b24scroller .row .col-md-1.col-lg-1:last-child {
-    display: none;
-  }
-  #b24scroller .row {
-    flex-wrap: wrap;
-  }
-  #b24scroller > * {
-    flex-grow: 1;
-  }
-  #b24scroller .b24-selector-checkin,
-  #b24scroller .b24-selector-checkout {
-    flex-grow: 2;
-  }
-  #b24scroller #inputcheckin, #b24scroller #inputnumadult {
-    border-left: 0;
-  }
-  /*------------------------------------------------------------------
-    Room Top
+    Room section
   */
   .b24fullcontainer-rooms {
     padding-top: 24px;
   }
-
   .b24fullcontainer-rooms .b24panel-room {
     margin-bottom: 32px;
-    border: 0;
+    border: var(--b-m) solid var(--dark);
   }
   .b24fullcontainer-rooms .colorbookingform,
   .b24panel {
-    background-color: transparent;
+    background-color: var(--white);
   }
-
   .b24fullcontainer-rooms .b24-roompanel-heading {
     border: var(--b-m) solid var(--dark);
     border-bottom: var(--b-s) solid;
@@ -240,7 +202,6 @@ footer {
   .b24fullcontainer-rooms .b24room .b24panel-room .row .clearfix {
     display: none !important;
   }
-
   .b24fullcontainer-rooms .b24room .panel-body {
     padding: 0 0 16px 0;
   }
@@ -249,28 +210,8 @@ footer {
     border-top: 0;
     background-color: var(--white);
   }
-
-  .b24fullcontainer-rooms .b24panel > .row {
-    margin-left: 0;
-    margin-right: 0;
-    border-bottom: var(--b-s) solid var(--dark);
-    display: grid;
-    grid-template-columns: 41.66666667% 1fr;
-    grid-template-areas: "slider description" "slider features" ;
-    gap: 0;
-    justify-items: stretch;
-  }
-
   .b24fullcontainer-rooms .b24panel .row .b24module {
     padding: 16px;
-  }
-
-  .b24-room-module {
-    padding: 8px 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
   .glyphicon-info-sign::before,
   .glyphicon-remove::before {
@@ -287,65 +228,57 @@ footer {
   .glyphicon-remove::before {
     background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/77d716d1-21f2-4f0f-8489-2f348a46b8be.svg);
   }
+    /* Main Features list */
+    ul.rentaroo-main-features {
+      list-style-type: none;
+      width: 100%;
+      height: auto;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .rentaroo-main-features li {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      line-height: 1.2em;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background-color: var(--light-purple);
+      color: var(--dark-purple);
+      white-space: nowrap;
+      margin-bottom: 12px;
+      margin-right: 8px;
+    }
 
-  /* Main Features list */
-  ul.rentaroo-main-features {
-    list-style-type: none;
-    width: 100%;
-    height: auto;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  gap: 16px 16px;
-  justify-items: start;
-  grid-auto-flow: row; */
-  }
-  .rentaroo-main-features li {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    line-height: 1.2em;
-    padding: 4px 10px;
-    border-radius: 20px;
-    background-color: var(--light-purple);
-    color: var(--dark-purple);
-    white-space: nowrap;
-    margin-bottom: 12px;
-    margin-right: 8px;
-  }
-
-  /* icons */
-  .rentaroo-main-features .icon::before {
-    content: '';
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 2px 6px 2px 2px;
-  }
-  .rentaroo-main-features .shared-icon::before {
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/8824d473-6d4f-464e-a7fe-0dee40e026ea.svg);
-  }
-  .rentaroo-main-features .surface-icon::before {
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/013140a4-3c9c-46de-9f6d-5bca73545f81.svg);
-  }
-  .rentaroo-main-features .kitchen-icon::before {
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/f679d804-f234-456c-b1ba-c4be2a222cc3.svg);
-  }
-  .rentaroo-main-features .users-icon::before {
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/35dfedd3-f7b0-4899-a80b-ff5176f1752a.svg);
-  }
-  .rentaroo-main-features .terrace-icon::before {
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/a2ca3e83-6df0-4196-b588-d43cf961bc32.svg);
-  }
-
-  /* Room features */
+    /* icons */
+    .rentaroo-main-features .icon::before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin: 2px 6px 2px 2px;
+    }
+    .rentaroo-main-features .shared-icon::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/8824d473-6d4f-464e-a7fe-0dee40e026ea.svg);
+    }
+    .rentaroo-main-features .surface-icon::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/013140a4-3c9c-46de-9f6d-5bca73545f81.svg);
+    }
+    .rentaroo-main-features .kitchen-icon::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/f679d804-f234-456c-b1ba-c4be2a222cc3.svg);
+    }
+    .rentaroo-main-features .users-icon::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/35dfedd3-f7b0-4899-a80b-ff5176f1752a.svg);
+    }
+    .rentaroo-main-features .terrace-icon::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/a2ca3e83-6df0-4196-b588-d43cf961bc32.svg);
+    }
+      /* Room features */
   .b24-room-module .b24-features {
     display: flex;
     flex-direction: column;
@@ -388,7 +321,7 @@ footer {
   .b24-featurewell .fa {
     display: none;
   }
-  .b24-featurewell .fa::before {
+  /* .b24-featurewell .fa::before {
     content: '';
     width: 24px;
     height: 24px;
@@ -401,118 +334,185 @@ footer {
 
   .b24-featurewell .fa-briefcase::before {
     background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/a2ca3e83-6df0-4196-b588-d43cf961bc32.svg);
+  } */
+
+    /* Slider */
+    .b24fullcontainer-rooms .b24room .b24-room-slider {
+      padding: 0;
+      border: 0;
+      border-right: var(--b-s) solid var(--dark);
+      width: 100%;
+    }
+    .carousel-inner {
+    border-bottom: var(--b-s) solid var(--dark);
+    }
+    .glyphicon-chevron-right::before,
+    .glyphicon-chevron-left::before {
+      content: '';
+      width: 24px;
+      height: 24px;
+      background-size: cover;
+      display: block;
+    }
+    .glyphicon-chevron-right::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/96c8fbe8-8331-4d7a-81e1-e95509f76160.svg);
+    }
+    .glyphicon-chevron-left:before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/66ab5bf3-429e-4b95-94e9-e8e3a4134c88.svg);
+    }
+    .carousel-control {
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      height: 40px;
+      width: 40px;
+      font-size: 20px;
+      color: darkblue;
+      text-align: center;
+      text-shadow: none;
+      filter: alpha(opacity=50);
+      opacity: 1;
+      background-color: var(--teal);
+      border-top: var(--b-s) solid var(--dark);
+      border-left: var(--b-s) solid var(--dark);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .carousel-control.right {
+      right: 0;
+    }
+    .carousel-control.left {
+      right: 38px;
+      left: auto;
+    }
+    .carousel .carousel-control .glyphicon {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      position: relative;
+      top: auto;
+      left: auto;
+      right: auto;
+      margin: 0;
+      margin-top: 0;
+      margin-left: 0;
+    }
+
+    ol.carousel-indicators {
+      bottom: 0;
+      left: 0;
+      padding: 11px;
+      margin: 0;
+      position: absolute;
+      z-index: 15;
+      width: auto;
+      margin-left: 0;
+      text-align: center;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    ol.carousel-indicators li {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin: 0 2px;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: var(--teal);
+      border: var(--b-s) solid var(--dark);
+      border-radius: 16px;
+    }
+    ol.carousel-indicators li.active {
+      background-color: transparent;
+      width: 16px;
+      height: 16px;
+      margin: 0 4px;
+    }
+    .b24-room-slider .carousel {
+      height: 100%;
+     }
+/*------------------------------------------------------------------
+    Media queries: L & XL
+------------------------------------------------------------------*/
+
+@media screen and (min-width: 768px) {
+  /*------------------------------------------------------------------
+    Filters
+*/
+  #b24scroller-fullcontainer {
+    position: sticky;
+    top: 57px;
+    z-index: 999;
   }
-  /* Slider */
-  .b24fullcontainer-rooms .b24room .b24-room-slider {
-    padding: 0;
-    border: 0;
-    border-right: var(--b-s) solid var(--dark);
-    width: 100%;
-    grid-area: slider;
-    align-self: stretch;
-    justify-self: stretch;
-  }
-  .carousel-inner {
-  border-bottom: var(--b-s) solid var(--dark);
-  }
-  .glyphicon-chevron-right::before,
-  .glyphicon-chevron-left::before {
-    content: '';
-    width: 24px;
-    height: 24px;
-    background-size: cover;
-    display: block;
-  }
-  .glyphicon-chevron-right::before {
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/96c8fbe8-8331-4d7a-81e1-e95509f76160.svg);
-  }
-  .glyphicon-chevron-left:before {
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/66ab5bf3-429e-4b95-94e9-e8e3a4134c88.svg);
-  }
-  .carousel-control {
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    height: 40px;
-    width: 40px;
-    font-size: 20px;
-    color: darkblue;
-    text-align: center;
-    text-shadow: none;
-    filter: alpha(opacity=50);
-    opacity: 1;
-    background-color: var(--teal);
-    border-top: var(--b-s) solid var(--dark);
-    border-left: var(--b-s) solid var(--dark);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .carousel-control.right {
-    right: 0;
-  }
-  .carousel-control.left {
-    right: 38px;
-    left: auto;
-  }
-  .carousel .carousel-control .glyphicon {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    position: relative;
-    top: auto;
-    left: auto;
-    right: auto;
-    margin: 0;
+  #b24scroller.b24-bookingstrip {
+    margin-bottom: 0;
     margin-top: 0;
-    margin-left: 0;
+    box-shadow: 0 12px 12px rgb(138 138 138 / 15%);
   }
 
-  ol.carousel-indicators {
-    bottom: 0;
-    left: 0;
-    padding: 11px;
-    margin: 0;
-    position: absolute;
-    z-index: 15;
-    width: auto;
+  #b24scroller .row .col-md-1.col-lg-1:first-child,
+  #b24scroller .row .col-md-1.col-lg-1:last-child {
+    display: none;
+  }
+  #b24scroller .row {
+    flex-wrap: wrap;
+  }
+  #b24scroller > * {
+    flex-grow: 1;
+  }
+  #b24scroller .b24-selector-checkin,
+  #b24scroller .b24-selector-checkout {
+    flex-grow: 2;
+  }
+  #b24scroller #inputcheckin, #b24scroller #inputnumadult {
+    border-left: 0;
+  }
+  /*------------------------------------------------------------------
+    Room Top
+  */
+
+  .b24fullcontainer-rooms .b24panel > .row {
     margin-left: 0;
-    text-align: center;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-right: 0;
+    border-bottom: var(--b-s) solid var(--dark);
+    display: grid;
+    grid-template-columns: 41.66666667% 1fr;
+    grid-template-areas: "slider description" "slider features" ;
+    gap: 0;
+    justify-items: stretch;
   }
-  ol.carousel-indicators li {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    margin: 0 2px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: var(--teal);
-    border: var(--b-s) solid var(--dark);
-    border-radius: 16px;
+
+  .b24-room-module {
+    padding: 8px 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
-  ol.carousel-indicators li.active {
-    background-color: transparent;
-    width: 16px;
-    height: 16px;
-    margin: 0 4px;
-  }
-  .b24-room-slider .carousel {
-    height: 100%;
-   }
+
+    /* Slider */
+    .b24fullcontainer-rooms .b24room .b24-room-slider {
+      border-right: var(--b-s) solid var(--dark);
+      width: 100%;
+      grid-area: slider;
+      align-self: stretch;
+      justify-self: stretch;
+    }
+
+   /* Aside */
    .b24-room-desc {
-     width: 100%;
-    grid-area: description;
-    justify-self: stretch;
-   }
-  .b24-room-106 {
     width: 100%;
-   grid-area: features;
+   grid-area: description;
    justify-self: stretch;
   }
+ .b24-room-106 {
+   width: 100%;
+  grid-area: features;
+  justify-self: stretch;
+ }
 
   /*------------------------------------------------------------------
   Offer
