@@ -63,26 +63,9 @@ footer {
   display: none;
 }
 
-
 /*------------------------------------------------------------------
-    Media queries: L & XL
+    Media queries: General (S M)
 ------------------------------------------------------------------*/
-
-@media screen and (min-width: 768px) {
-  /*------------------------------------------------------------------
-    Filters
-*/
-  #b24scroller-fullcontainer {
-    position: sticky;
-    top: 57px;
-    z-index: 999;
-  }
-  #b24scroller.b24-bookingstrip {
-    margin-bottom: 0;
-    margin-top: 0;
-    box-shadow: 0 12px 12px rgb(138 138 138 / 15%);
-  }
-
   #b24scroller .row .col-md-1.col-lg-1:first-child,
   #b24scroller .row .col-md-1.col-lg-1:last-child {
     display: none;
@@ -95,10 +78,6 @@ footer {
   }
   #b24scroller > * {
     flex-grow: 1;
-  }
-  #b24scroller .b24-selector-checkin,
-  #b24scroller .b24-selector-checkout {
-    flex-grow: 2;
   }
   #b24scroller .col-lg-1,
   #b24scroller .col-lg-10,
@@ -186,6 +165,128 @@ footer {
   #b24scroller .glyphicon-calendar:before {
     display: none;
   }
+/*------------------------------------------------------------------
+    Media queries: L & XL
+------------------------------------------------------------------*/
+
+@media screen and (min-width: 768px) {
+  /*------------------------------------------------------------------
+    Filters
+*/
+  #b24scroller-fullcontainer {
+    position: sticky;
+    top: 57px;
+    z-index: 999;
+  }
+  #b24scroller.b24-bookingstrip {
+    margin-bottom: 0;
+    margin-top: 0;
+    box-shadow: 0 12px 12px rgb(138 138 138 / 15%);
+  }
+
+  /* #b24scroller .row .col-md-1.col-lg-1:first-child,
+  #b24scroller .row .col-md-1.col-lg-1:last-child {
+    display: none;
+  }
+  #b24scroller .row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-left: 0;
+  }
+  #b24scroller > * {
+    flex-grow: 1;
+  } */
+  #b24scroller .b24-selector-checkin,
+  #b24scroller .b24-selector-checkout {
+    flex-grow: 2;
+  }
+  /* #b24scroller .col-lg-1,
+  #b24scroller .col-lg-10,
+  #b24scroller .col-lg-11,
+  #b24scroller .col-lg-12,
+  #b24scroller .col-lg-2,
+  #b24scroller .col-lg-3,
+  #b24scroller .col-lg-4,
+  #b24scroller .col-lg-5,
+  #b24scroller .col-lg-6,
+  #b24scroller .col-lg-7,
+  #b24scroller .col-lg-8,
+  #b24scroller .col-lg-9,
+  #b24scroller .col-md-1,
+  #b24scroller .col-md-10,
+  #b24scroller .col-md-11,
+  #b24scroller .col-md-12,
+  #b24scroller .col-md-2,
+  #b24scroller .col-md-3,
+  #b24scroller .col-md-4,
+  #b24scroller .col-md-5,
+  #b24scroller .col-md-6,
+  #b24scroller .col-md-7,
+  #b24scroller .col-md-8,
+  #b24scroller .col-md-9,
+  #b24scroller .col-sm-1,
+  #b24scroller .col-sm-10,
+  #b24scroller .col-sm-11,
+  #b24scroller .col-sm-12,
+  #b24scroller .col-sm-2,
+  #b24scroller .col-sm-3,
+  #b24scroller .col-sm-4,
+  #b24scroller .col-sm-5,
+  #b24scroller .col-sm-6,
+  #b24scroller .col-sm-7,
+  #b24scroller .col-sm-8,
+  #b24scroller .col-sm-9,
+  #b24scroller .col-xs-1,
+  #b24scroller .col-xs-10,
+  #b24scroller .col-xs-11,
+  #b24scroller .col-xs-12,
+  #b24scroller .col-xs-2,
+  #b24scroller .col-xs-3,
+  #b24scroller .col-xs-4,
+  #b24scroller .col-xs-5,
+  #b24scroller .col-xs-6,
+  #b24scroller .col-xs-7,
+  #b24scroller .col-xs-8,
+  #b24scroller .col-xs-9 {
+    padding-left: 0;
+    padding-right: 0;
+  } */
+  /* #b24scroller .form-group select,
+  #b24scroller .date .form-control,
+  #b24scroller .input-group-addon {
+    border-radius: 0;
+    border: var(--b-s) solid var(--dark);
+    border-left: 0;
+    padding: 8px 10px;
+    height: 4rem;
+    background-color: var(--grey);
+  }
+  #b24scroller #checkin .input-group-addon {
+    border-left: var(--b-s) solid;
+  }
+  #b24scroller #checkin .form-control[disabled],
+  #b24scroller #checkin .form-control[readonly],
+  #b24scroller #checkin fieldset[disabled],
+  #b24scroller #checkin .form-control,
+  #b24scroller .input-group-addon,
+  #b24scroller #checkout .form-control[disabled],
+  #b24scroller #checkout .form-control[readonly],
+  #b24scroller #checkout fieldset[disabled],
+  #b24scroller #checkout .form-control,
+  #b24scroller .input-group-addon {
+    background-color: var(--grey);
+  }
+
+  #b24scroller .glyphicon-calendar {
+    width: 18px;
+    height: 18px;
+    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/7a66dabd-63d1-4c69-b747-fb54f96cfdf7.svg);
+    background-size: cover;
+  }
+  #b24scroller .glyphicon-calendar:before {
+    display: none;
+  } */
 
   /*------------------------------------------------------------------
     Room Top
