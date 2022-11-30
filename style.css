@@ -139,7 +139,6 @@ footer {
   #b24scroller .input-group-addon {
     border-radius: 0;
     border: var(--b-s) solid var(--dark);
-    border-left: 0;
     padding: 8px 10px;
     height: 4rem;
     background-color: var(--grey);
