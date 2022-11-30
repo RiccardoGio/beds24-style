@@ -458,6 +458,7 @@ footer {
   .b24fullcontainer-rooms .offer .button {
     border: 3px solid;
     border-radius: 0;
+    max-width: 260px;
   }
   .b24fullcontainer-rooms .offer .button:hover {
     background: var(--teal);
@@ -469,6 +470,11 @@ footer {
   }
   .b24fullcontainer-rooms .offer .at_offername {
     padding-bottom: 0;
+  }
+
+  .b24fullcontainer-rooms .offer .at_roomofferprice {
+    flex-grow: 1;
+    text-align: left;
   }
 
   .b24-roomwarn {
@@ -485,8 +491,8 @@ footer {
 .b24fullcontainer-rooms .offer .multiroomhide > div:nth-child(2) {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: end;
+  align-items: flex-start;
+  justify-content: start;
 }
 .b24fullcontainer-rooms .offer .multiroomhide div > div {
   display: inline-block;
@@ -567,6 +573,12 @@ footer {
 .b24fullcontainer-rooms .offer .multiroomhide {
   transform: translateY(-50%);
   text-align: right;
+}
+.b24fullcontainer-rooms .offer .multiroomhide > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
 }
 
 }
