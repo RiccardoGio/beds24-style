@@ -74,11 +74,12 @@ footer {
 */
   #b24scroller-fullcontainer {
     position: sticky;
-    top: 47px;
+    top: 57px;
     z-index: 999;
   }
   #b24scroller.b24-bookingstrip {
     margin-bottom: 0;
+    margin-top: 0;
     box-shadow: 0 12px 12px rgb(138 138 138 / 15%);
   }
 
