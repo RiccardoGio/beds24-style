@@ -544,7 +544,7 @@ footer {
  .b24-room-slider .carousel {
   height: 100%;
  }
- .b24-room-desc, b24-room-106 {
+ .b24-room-desc, .b24-room-106 {
    width: 100%;
   grid-area: aside;
   justify-self: stretch;
