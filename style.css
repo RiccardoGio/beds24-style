@@ -580,5 +580,8 @@ footer {
   align-items: center;
   justify-content: end;
 }
+.b24fullcontainer-rooms .offer .at_roomofferprice {
+  text-align: right;
+}
 
 }
