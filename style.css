@@ -517,19 +517,26 @@ footer {
 #bookingpage .panel {
   margin-bottom: 0;
 }
+#bookingpage .questionrow {
+  margin: 8px 0;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  border: var(--b-s) solid var(--grey);
+}
 
 select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   padding: 3px 6px;
   line-height: 1.42857143;
-  background-color: var(--grey);
+  background-color: transparent;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 0;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
 }
 
 /*------------------------------------------------------------------
