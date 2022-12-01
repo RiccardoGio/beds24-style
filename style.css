@@ -551,15 +551,20 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   width: 100%;
 }
 .questionrow > div:nth-child(2) {
+  border-bottom: var(--b-m) solid transparent;
+  padding: 0;
+}
+.questionrow > div:nth-child(2):focus-within {
+  border-bottom: var(--b-l) solid var(--purple);
   padding: 0;
 }
 .form-control, .inputdiscountphrase {
-  border-bottom: var(--b-m) solid transparent;
+  /* border-bottom: var(--b-m) solid transparent; */
   font-size: 18px;
   color: var(--dark);
 }
 .form-control:focus, .inputdiscountphrase:focus {
-  border-bottom: var(--b-l) solid var(--purple);
+  /* border-bottom: var(--b-l) solid var(--purple); */
   box-shadow: none;
 }
 .colorbookingform, .b24panel {
@@ -656,10 +661,11 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
  /* Error message */
  .b24-guest-details-left .booktexterrordiv {
   padding: 0;
-  color: var(--red);
+  color: var(--dark-red);
   background-color: var(--light-red);
   max-width: 100%;
-  border-radius:0
+  border-radius:0;
+  border: 0;
  }
  .booktexterrordiv .booktexterror {
   padding: 4px 16px 0 16px ;
