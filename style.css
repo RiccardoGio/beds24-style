@@ -50,7 +50,7 @@ sup {
 }
 
 /*------------------------------------------------------------------
-    Media queries: General (S M L XL)
+    Media queries: All (S M L XL)
 ------------------------------------------------------------------*/
 body {
   padding-top: 40px;
@@ -64,13 +64,6 @@ footer {
 .newsearch {
   display: none;
 }
-
-/*------------------------------------------------------------------
-    Media queries: General (S M)
-------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-  S: Filters
-*/
   #b24scroller .row .col-md-1.col-lg-1:first-child,
   #b24scroller .row .col-md-1.col-lg-1:last-child {
     display: none;
@@ -521,6 +514,12 @@ footer {
 #bookingpage .panel {
   margin-bottom: 32px;
 }
+#bookingpage .b24panel {
+  padding: 0;
+}
+#bookingpage .panel-body.b24panel::before {
+  display: none;
+}
 #bookingpage .questionrow {
   margin: 0;
   padding: 8px 0 0 0;
@@ -532,7 +531,7 @@ footer {
 }
 
 select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
-  padding: 0 16px 16px 16px;
+  padding: 0 16px 12px 16px;
   line-height: 1.42857143;
   background-color: transparent;
   background-image: none;
@@ -543,6 +542,7 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
+  width: 100%;
 }
 .questionrow > div {
   width: 100%;
@@ -556,12 +556,13 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   color: var(--dark);
 }
 .form-control:focus {
-  border-bottom: var(--b-m) solid var(--purple);
+  border-bottom: var(--b-l) solid var(--purple);
   box-shadow: none;
 }
 .colorbookingform, .b24panel {
   color: var(--dark);
 }
+/* Guest Details */
 .b24-guestdetails .panel-body.b24panel {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -606,7 +607,44 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
 .b24-guestdetails .questionrow-guestcompany {
   grid-area: company;
 }
+.b24-repeatgrandtotal.col-xs-12.col-sm-7.hidden-sm.hidden-md.hidden-lg.b24-guest-details-left {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+/* Voucher */
+.b24-optionalvouchercode .b24panel .form-group {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.b24-optionalvouchercode .b24panel .form-group > div {
+  border: var(--b-xs) solid var(--dark);
+  width: 100%;
+}
+.b24-optionalvouchercode .b24panel .form-group > div:first-child {
+ flex-grow: 2;
+}
+.b24-optionalvouchercode .b24panel .form-group > div:nth-child(2) {
+  flex-grow: 1;
+ }
+ .b24-optionalvouchercode .b24panel .form-group input {
+  width: 100%;
+ }
+ .b24-optionalvouchercode .b24panel .form-group input.button {
+  width: 100%;
+  border-radius: 0;
+  height: 100%;
+ }
 
+
+/*------------------------------------------------------------------
+    Media queries: S & M
+------------------------------------------------------------------*/
+@media only screen and (max-width: 767px)
+input, select {
+    font-size: 18px !important;
+}
 
 /*------------------------------------------------------------------
     Media queries: L & XL
