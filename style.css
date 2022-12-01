@@ -660,9 +660,11 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
  #bookingpage .book_confirmbookingbut {
   border: var(--b-m) solid var(--dark);
   background: var(--purple);
+  transition: all 0.3s ease-out;
 }
 #bookingpage .book_confirmbookingbut:hover {
   background: var(--teal);
+  color: var(--dark);
 }
 
  /* Credit card */
