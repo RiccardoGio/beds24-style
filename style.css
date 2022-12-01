@@ -44,8 +44,9 @@ sup {
   --light-purple: #f5f2fd;
   --dark-purple: #7565a2;
   --lime: #e6efcf;
-  --light-red: #eebfc9;
-  --red: #a25069;
+  --red: #f1ccd4;
+  --light-red: #f7e1e6;
+  --dark-red: #a25069;
 }
 .colorbody {
   background-color: var(--grey);
@@ -658,6 +659,7 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   color: var(--red);
   background-color: var(--light-red);
   max-width: 100%;
+  border-radius:0
  }
  .booktexterrordiv .booktexterror {
   padding: 4px 16px 0 16px ;
