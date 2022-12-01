@@ -521,6 +521,8 @@ footer {
   margin: 8px 0;
   padding: 8px;
   display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
   flex-direction: column;
   border: var(--b-s) solid var(--grey);
 }
@@ -537,6 +539,18 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
+}
+.questionrow > div .questionrow > div {
+  width: 100%;
+}
+.b24-guestdetails .panel-body.b24panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 8px 0;
+}
+.b24-guestdetails .panel-body.b24panel::before {
+  display: none;
 }
 
 /*------------------------------------------------------------------
