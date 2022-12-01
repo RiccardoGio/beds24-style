@@ -657,6 +657,7 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   padding: 0;
   color: var(--red);
   background-color: var(--light-red);
+  max-width: 100%;
  }
  .booktexterrordiv .booktexterror {
   padding: 4px 16px 0 16px ;
