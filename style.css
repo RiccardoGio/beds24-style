@@ -44,6 +44,8 @@ sup {
   --light-purple: #f5f2fd;
   --dark-purple: #7565a2;
   --lime: #e6efcf;
+  --light-red: #eebfc9;
+  --red: #a25069;
 }
 .colorbody {
   background-color: var(--grey);
@@ -650,6 +652,15 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
  /* Credit card */
 
 
+ /* Error message */
+ .b24-guest-details-left .booktexterrordiv {
+  padding: 0;
+  color: var(--red);
+  background-color: var(--light-red);
+ }
+ .booktexterrordiv .booktexterror {
+  padding: 4px 16px 0 16px ;
+ }
 
 /*------------------------------------------------------------------
     Media queries: S & M
