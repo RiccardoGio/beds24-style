@@ -45,7 +45,7 @@ sup {
   --dark-purple: #7565a2;
   --lime: #e6efcf;
   --red: #f1ccd4;
-  --light-red: #f7e1e6;
+  --light-red: #fbeff2;
   --dark-red: #a25069;
 }
 .colorbody {
@@ -534,7 +534,7 @@ footer {
 }
 
 select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
-  padding: 0 16px 12px 16px;
+  padding: 8px 16px 10px 16px;
   line-height: 1.42857143;
   background-color: transparent;
   background-image: none;
@@ -653,17 +653,16 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   width: 100%;
   border-radius: 0;
   height: 100%;
- }
- #bookingpage .book_confirmbookingbut, .b24-optionalvouchercode .button {
   border: var(--b-xs) solid var(--dark);
-  border-radius: 0;
-  max-width: 260px;
-  min-width: 130px;
-  transition: all 0.3 ease-out;
-}
-#bookingpage .book_confirmbookingbut:hover, .b24-optionalvouchercode .button:hover {
-  background: var(--teal);
+  transition: all 0.3s ease-out;
   color: var(--dark);
+ }
+ #bookingpage .book_confirmbookingbut {
+  border: var(--b-m) solid var(--dark);
+  background: var(--purple);
+}
+#bookingpage .book_confirmbookingbut:hover {
+  background: var(--teal);
 }
 
  /* Credit card */
