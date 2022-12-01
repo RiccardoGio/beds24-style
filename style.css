@@ -563,7 +563,8 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
 }
 .form-control, .inputdiscountphrase {
   /* border-bottom: var(--b-m) solid transparent; */
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 120%;
   color: var(--dark);
 }
 .form-control:focus, .inputdiscountphrase:focus {
@@ -695,9 +696,10 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
 /*------------------------------------------------------------------
     Media queries: S & M
 ------------------------------------------------------------------*/
-@media only screen and (max-width: 767px)
-input, select {
-    font-size: 18px !important;
+@media only screen and (max-width: 767px) {
+  input, select {
+      font-size: 18px !important;
+  }
 }
 
 /*------------------------------------------------------------------
