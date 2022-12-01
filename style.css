@@ -502,7 +502,9 @@ footer {
   padding: 0 8px;
 }
 
-/* Payment step  */
+/*------------------------------------------------------------------
+  Payment form
+*/
 #bookingpage .border {
   border: var(--b-m) solid var(--dark);
   border-bottom: 0;
@@ -518,7 +520,7 @@ footer {
   margin-bottom: 0;
 }
 #bookingpage .questionrow {
-  margin: 8px 0;
+  margin: 0;
   padding: 8px;
   display: flex;
   justify-content: flex-start;
@@ -540,7 +542,7 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   -o-transition: none;
   transition: none;
 }
-.questionrow > div .questionrow > div {
+.questionrow > div {
   width: 100%;
 }
 .b24-guestdetails .panel-body.b24panel {
@@ -675,7 +677,7 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
 }
 
 /*------------------------------------------------------------------
-  Payment
+  Payment form
 */
 #bookingpage .questionrow > div .questionrow > div {
   width: 100%;
