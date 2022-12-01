@@ -638,4 +638,11 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   text-align: right;
 }
 
+/*------------------------------------------------------------------
+  Payment
+*/
+#bookingpage .questionrow > div .questionrow > div {
+  width: 100%;
+}
+
 }
