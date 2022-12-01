@@ -550,12 +550,12 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
 .questionrow > div:nth-child(2) {
   padding: 0;
 }
-.form-control {
+.form-control, .inputdiscountphrase {
   border-bottom: var(--b-m) solid transparent;
   font-size: 18px;
   color: var(--dark);
 }
-.form-control:focus {
+.form-control:focus, .inputdiscountphrase:focus {
   border-bottom: var(--b-l) solid var(--purple);
   box-shadow: none;
 }
@@ -629,6 +629,7 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
 .b24-optionalvouchercode .b24panel .form-group > div:nth-child(2) {
   flex-grow: 1;
   width: auto;
+  min-width: 160px;
  }
  .b24-optionalvouchercode .b24panel .form-group > div:last-child {
   display: none;
@@ -636,6 +637,9 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
  .b24-optionalvouchercode .b24panel .form-group .inputdiscountphrase {
   width: 100%;
   padding: 16px;
+ }
+ .b24-optionalvouchercode .b24panel .form-group .inputdiscountphrase:focus-visible {
+ border: 0;
  }
  .b24-optionalvouchercode .b24panel .form-group input.button {
   width: 100%;
