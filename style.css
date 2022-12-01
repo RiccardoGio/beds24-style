@@ -454,16 +454,16 @@ footer {
   .b24fullcontainer-rooms .offer hr {
     display: none;
   }
-  .b24fullcontainer-rooms .offer .button,  #bookingpage .book_confirmbookingbut, .b24-optionalvouchercode .button {
+  .b24fullcontainer-rooms .offer .button {
     border: 3px solid;
     border-radius: 0;
     max-width: 260px;
     min-width: 130px;
+    transition: all 0.3 ease-out;
   }
-  .b24fullcontainer-rooms .offer .button:hover, #bookingpage .book_confirmbookingbut:hover, .b24-optionalvouchercode .button:hover {
+  .b24fullcontainer-rooms .offer .button:hover {
     background: var(--teal);
     color: var(--dark);
-    border: 3px solid var(--dark);
   }
   .b24fullcontainer-rooms .offer .b24-offer-summary {
     opacity: 0.5;
@@ -654,6 +654,17 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   border-radius: 0;
   height: 100%;
  }
+ #bookingpage .book_confirmbookingbut, .b24-optionalvouchercode .button {
+  border: var(--b-xs) solid var(--dark);
+  border-radius: 0;
+  max-width: 260px;
+  min-width: 130px;
+  transition: all 0.3 ease-out;
+}
+#bookingpage .book_confirmbookingbut:hover, .b24-optionalvouchercode .button:hover {
+  background: var(--teal);
+  color: var(--dark);
+}
 
  /* Credit card */
 
