@@ -521,8 +521,7 @@ footer {
 }
 #bookingpage .questionrow {
   margin: 0;
-  padding: 8px;
-  padding-bottom: 0;
+  padding-top: 8px 0 0 0;
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
@@ -549,8 +548,11 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
 .questionrow > div:nth-child(2) {
   padding: 0;
 }
+.form-control {
+  border-bottom: var(--b-m) solid transparent;
+}
 .form-control:focus {
-  border-bottom: var(--b-m) solid var(--dark-purple);
+  border-bottom: var(--b-m) solid var(--purple);
   box-shadow: none;
 }
 .b24-guestdetails .panel-body.b24panel {
