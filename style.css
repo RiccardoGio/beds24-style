@@ -628,13 +628,14 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
 }
 .b24-optionalvouchercode .b24panel .form-group > div:nth-child(2) {
   flex-grow: 1;
+  width: auto;
  }
  .b24-optionalvouchercode .b24panel .form-group > div:last-child {
   display: none;
  }
  .b24-optionalvouchercode .b24panel .form-group .inputdiscountphrase {
   width: 100%;
-  padding: 8px;
+  padding: 16px;
  }
  .b24-optionalvouchercode .b24panel .form-group input.button {
   width: 100%;
