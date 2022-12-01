@@ -547,11 +547,47 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 8px 0;
+  gap: 8px 8px;
+  grid-template-areas: "first last" "email phone" "company company" "address address" "postcode city" "country country" "arrival arrival" "comments comments";
 }
 .b24-guestdetails .panel-body.b24panel::before {
   display: none;
 }
+.b24-guestdetails .questionrow-guestfirstname {
+  grid-area: first;
+}
+.b24-guestdetails .questionrow-guestname {
+  grid-area: last;
+}
+.b24-guestdetails .questionrow-guestemail {
+  grid-area: email;
+}
+.b24-guestdetails .questionrow-guestphone {
+  grid-area: phone;
+}
+.b24-guestdetails .questionrow-guestaddress {
+  grid-area: address;
+}
+.b24-guestdetails .questionrow-guestcity {
+  grid-area: city;
+}
+.b24-guestdetails .questionrow-guestpostcode {
+  grid-area: postcode;
+}
+.b24-guestdetails .questionrow-guestcountry2 {
+  grid-area: country;
+}
+.b24-guestdetails .questionrow-guestarrivaltime {
+  grid-area: arrival;
+}
+.b24-guestdetails .questionrow-guestcomments {
+  grid-area: comments;
+}
+.b24-guestdetails .questionrow-guestcompany {
+  grid-area: company;
+}
+
+
 
 /*------------------------------------------------------------------
     Media queries: L & XL
