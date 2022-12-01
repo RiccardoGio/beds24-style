@@ -621,6 +621,7 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
 .b24-optionalvouchercode .b24panel .form-group > div {
   border: var(--b-xs) solid var(--dark);
   width: 100%;
+  padding: 0;
 }
 .b24-optionalvouchercode .b24panel .form-group > div:first-child {
  flex-grow: 2;
@@ -628,14 +629,21 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
 .b24-optionalvouchercode .b24panel .form-group > div:nth-child(2) {
   flex-grow: 1;
  }
- .b24-optionalvouchercode .b24panel .form-group input {
+ .b24-optionalvouchercode .b24panel .form-group > div:last-child {
+  display: none;
+ }
+ .b24-optionalvouchercode .b24panel .form-group .inputdiscountphrase {
   width: 100%;
+  padding: 8px;
  }
  .b24-optionalvouchercode .b24panel .form-group input.button {
   width: 100%;
   border-radius: 0;
   height: 100%;
  }
+
+ /* Credit card */
+
 
 
 /*------------------------------------------------------------------
