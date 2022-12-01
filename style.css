@@ -459,7 +459,7 @@ footer {
     border-radius: 0;
     max-width: 260px;
     min-width: 130px;
-    transition: all 0.3 ease-out;
+    transition: all 0.3s ease-out;
   }
   .b24fullcontainer-rooms .offer .button:hover {
     background: var(--teal);
@@ -653,7 +653,7 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   width: 100%;
   border-radius: 0;
   height: 100%;
-  border: var(--b-xs) solid var(--dark);
+  border: 0;
   transition: all 0.3s ease-out;
   color: var(--dark);
  }
