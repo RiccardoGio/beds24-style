@@ -29,6 +29,7 @@ sup {
 */
 :root {
   /* Borders */
+  --b-xs: 1px;
   --b-s: 2px;
   --b-m: 3px;
   --b-l: 4px;
@@ -36,7 +37,7 @@ sup {
   /* Colors */
   --dark: #013140;
   --grey: #f5f4f4;
-  --dark-grey: #e6e6e6;
+  --dark-grey: #c7c7c7;
   --white: #ffffff;
   --teal: #cae4db;
   --purple: #dcd2f7;
@@ -522,12 +523,12 @@ footer {
 }
 #bookingpage .questionrow {
   margin: 0;
-  padding-top: 8px 0 0 0;
+  padding: 8px 0 0 0;
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
   flex-direction: column;
-  border: var(--b-s) solid var(--dark-grey);
+  border: var(--b-xs) solid var(--dark);
 }
 
 select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
@@ -553,21 +554,21 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   border-bottom: var(--b-m) solid transparent;
   font-size: 18px;
   color: var(--dark);
-
 }
 .form-control:focus {
   border-bottom: var(--b-m) solid var(--purple);
   box-shadow: none;
 }
 .colorbookingform, .b24panel {
-  color: var(--dark-grey);
+  color: var(--dark);
 }
 .b24-guestdetails .panel-body.b24panel {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 16px 16px;
+  gap: 0 0;
   grid-template-areas: "first last" "email phone" "company company" "address address" "postcode city" "country country" "arrival arrival" "comments comments";
+  padding: 0 0 0 0;
 }
 .b24-guestdetails .panel-body.b24panel::before {
   display: none;
