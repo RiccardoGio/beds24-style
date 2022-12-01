@@ -509,7 +509,7 @@ footer {
 */
 #bookingpage .border {
   border: var(--b-m) solid var(--dark);
-  border-bottom: 0;
+  /* border-bottom: 0; */
 }
 #bookingpage .b24-creditcard .border, #bookingpage .b24-bookingdetails .border {
   border-bottom: var(--b-m) solid var(--dark);
@@ -519,7 +519,7 @@ footer {
 }
 
 #bookingpage .panel {
-  margin-bottom: 0;
+  margin-bottom: 32px;
 }
 #bookingpage .questionrow {
   margin: 0;
