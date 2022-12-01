@@ -36,6 +36,7 @@ sup {
   /* Colors */
   --dark: #013140;
   --grey: #f5f4f4;
+  --dark-grey: #e6e6e6;
   --white: #ffffff;
   --teal: #cae4db;
   --purple: #dcd2f7;
@@ -526,7 +527,7 @@ footer {
   justify-content: flex-start;
   align-items: stretch;
   flex-direction: column;
-  border: var(--b-s) solid var(--grey);
+  border: var(--b-s) solid var(--dark-grey);
 }
 
 select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
@@ -550,10 +551,16 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
 }
 .form-control {
   border-bottom: var(--b-m) solid transparent;
+  font-size: 18px;
+  color: var(--dark);
+
 }
 .form-control:focus {
   border-bottom: var(--b-m) solid var(--purple);
   box-shadow: none;
+}
+.colorbookingform, .b24panel {
+  color: var(--dark-grey);
 }
 .b24-guestdetails .panel-body.b24panel {
   display: grid;
