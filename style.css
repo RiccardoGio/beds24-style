@@ -465,7 +465,7 @@ footer {
     background: var(--teal);
     color: var(--dark);
   }
-  .b24fullcontainer-rooms .offer .b24-offer-summary {
+  .b24fullcontainer-rooms .offer .b24-offer-summary, .at_offersummary {
     opacity: 0.5;
   }
   .b24fullcontainer-rooms .offer .at_offername {
@@ -695,7 +695,7 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   padding: 8px 16px;
   margin: 0;
  }
- .b24-guest-details-right .b24panel {
+ #bookingpage .b24-guest-details-right .b24panel {
   padding: 16px;
  }
  .b24-guest-details-right .at_offername {
@@ -703,6 +703,7 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
  }
  .b24-guest-details-right .col-lg-1, .b24-guest-details-right  .col-lg-10, .b24-guest-details-right  .col-lg-11, .b24-guest-details-right  .col-lg-12, .b24-guest-details-right  .col-lg-2, .b24-guest-details-right  .col-lg-3, .b24-guest-details-right  .col-lg-4, .b24-guest-details-right  .col-lg-5, .b24-guest-details-right  .col-lg-6, .b24-guest-details-right  .col-lg-7, .b24-guest-details-right  .col-lg-8, .b24-guest-details-right  .col-lg-9, .b24-guest-details-right  .col-md-1, .b24-guest-details-right  .col-md-10, .b24-guest-details-right  .col-md-11, .b24-guest-details-right  .col-md-12, .b24-guest-details-right  .col-md-2, .b24-guest-details-right  .col-md-3, .b24-guest-details-right  .col-md-4, .b24-guest-details-right  .col-md-5, .b24-guest-details-right  .col-md-6, .b24-guest-details-right  .col-md-7, .b24-guest-details-right  .col-md-8, .b24-guest-details-right  .col-md-9, .b24-guest-details-right  .col-sm-1, .b24-guest-details-right  .col-sm-10, .b24-guest-details-right  .col-sm-11, .b24-guest-details-right  .col-sm-12, .b24-guest-details-right  .col-sm-2, .b24-guest-details-right  .col-sm-3, .b24-guest-details-right  .col-sm-4, .b24-guest-details-right  .col-sm-5, .b24-guest-details-right  .col-sm-6, .b24-guest-details-right  .col-sm-7, .b24-guest-details-right  .col-sm-8, .b24-guest-details-right  .col-sm-9, .b24-guest-details-right  .col-xs-1, .b24-guest-details-right  .col-xs-10, .b24-guest-details-right  .col-xs-11, .b24-guest-details-right  .col-xs-12, .b24-guest-details-right  .col-xs-2, .b24-guest-details-right  .col-xs-3, .b24-guest-details-right  .col-xs-4, .b24-guest-details-right  .col-xs-5, .b24-guest-details-right  .col-xs-6, .b24-guest-details-right  .col-xs-7, .b24-guest-details-right  .col-xs-8, .b24-guest-details-right  .col-xs-9 {
   padding-right: 16px;
+  padding-left: 0;
  }
  .b24-guest-details-right .b24-checkout-divder {
   display: none;
@@ -710,6 +711,7 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
  .b24-guest-details-right .totalpricerow {
   padding: 16px;
   border-top: var(--b-m) solid var(--dark);
+  margin-bottom: 0;
  }
  /* Error message */
  .b24-guest-details-left .booktexterrordiv {
