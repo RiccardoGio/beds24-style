@@ -513,7 +513,9 @@ footer {
 #bookingpage .b24-creditcard {
   margin-bottom: 32px;
 }
-
+#bookingpage.bb {
+  border: var(--b-xs) solid var(--dark);
+}
 #bookingpage .panel {
   margin-bottom: 32px;
 }
