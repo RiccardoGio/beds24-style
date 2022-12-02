@@ -669,6 +669,18 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
 
  /* Credit card */
 
+ /* Panel right */
+ .b24-guest-details-right .b24panel {
+  padding: 16px;
+ }
+ .b24-guest-details-right .b24-roompanel-heading {
+  border-bottom: var(--b-m) solid var(--dark);
+ }
+ .b24-guest-details-right .row {
+  margin: 0;
+  margin-right: 0;
+  margin-left: 0;
+ }
 
  /* Error message */
  .b24-guest-details-left .booktexterrordiv {
