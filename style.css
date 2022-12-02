@@ -681,6 +681,11 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   margin-right: 0;
   margin-left: 0;
  }
+ .b24-guest-details-right .row .col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+ }
  .b24-guest-details-right img {
   margin: 0;
   padding: 0;
