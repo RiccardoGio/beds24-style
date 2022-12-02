@@ -536,7 +536,7 @@ footer {
   border: var(--b-xs) solid var(--dark);
 }
 .colorbookingstrip {
-  background-color: var(--light-lime);
+  background: var(--light-lime);
 }
 select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   padding: 8px 16px 10px 16px;
