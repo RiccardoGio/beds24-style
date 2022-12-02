@@ -556,7 +556,7 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   width: 100%;
 }
 .questionrow > div:nth-child(2) {
-  border-bottom: var(--b-m) solid transparent;
+  border-bottom: var(--b-l) solid transparent;
   padding: 0;
 }
 .questionrow > div:nth-child(2):focus-within {
