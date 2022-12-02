@@ -467,7 +467,7 @@ footer {
     color: var(--dark);
   }
   .b24fullcontainer-rooms .offer .b24-offer-summary, .at_offersummary {
-    opacity: 0.5;
+    opacity: 0.7;
   }
   .b24fullcontainer-rooms .offer .at_offername {
     padding-bottom: 0;
@@ -564,14 +564,12 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   border-bottom: var(--b-l) solid var(--purple);
   padding: 0;
 }
-.form-control, .inputdiscountphrase {
-  /* border-bottom: var(--b-m) solid transparent; */
+#bookingpage .form-control, .inputdiscountphrase {
   font-size: 20px;
   line-height: 120%;
   color: var(--dark);
 }
-.form-control:focus, .inputdiscountphrase:focus {
-  /* border-bottom: var(--b-l) solid var(--purple); */
+#bookingpage .form-control:focus, .inputdiscountphrase:focus {
   box-shadow: none;
 }
 .colorbookingform, .b24panel {
