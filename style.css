@@ -677,7 +677,7 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   border-bottom: var(--b-m) solid var(--dark);
  }
  .b24-guest-details-right .row {
-  margin: 0;
+  margin: 0 0 16px 0;
   margin-right: 0;
   margin-left: 0;
  }
@@ -692,7 +692,7 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   width: 100%;
  }
  .b24-guest-details-right .at_roomnametext {
-  padding: 8px 16px;
+  padding: 8px 16px 16px 0;
   margin: 0;
  }
  #bookingpage .b24-guest-details-right .b24panel {
@@ -709,7 +709,7 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   display: none;
  }
  .b24-guest-details-right .totalpricerow {
-  padding: 16px;
+  padding: 16px 0;
   border-top: var(--b-m) solid var(--dark);
   margin-bottom: 0;
  }
