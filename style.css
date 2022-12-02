@@ -44,6 +44,7 @@ sup {
   --light-purple: #f5f2fd;
   --dark-purple: #7565a2;
   --lime: #e6efcf;
+  --light-lime: #f1f7e2;
   --red: #f1ccd4;
   --light-red: #fbeff2;
   --dark-red: #a25069;
@@ -534,7 +535,9 @@ footer {
   flex-direction: column;
   border: var(--b-xs) solid var(--dark);
 }
-
+.colorbookingstrip {
+  background-color: var(--light-lime);
+}
 select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   padding: 8px 16px 10px 16px;
   line-height: 1.42857143;
@@ -712,6 +715,10 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   padding: 16px 0;
   border-top: var(--b-m) solid var(--dark);
   margin-bottom: 0;
+  font-size: 20px;
+ }
+ .b24-guest-details-right .row div:last-child {
+  padding-right: 0;
  }
  /* Error message */
  .b24-guest-details-left .booktexterrordiv {
