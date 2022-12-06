@@ -294,6 +294,16 @@ footer {
     .rentaroo-main-features .bathroom-icon::before {
       background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/33789b54-66ff-4300-8aa6-8e40a5a048c0.svg);
     }
+    .rentaroo-main-features .wifi-icon::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/e0ed76ca-8607-4124-b6bd-bdb9cef91fef.svg);
+    }
+    .rentaroo-main-features .tv-icon::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/ddb1d0b4-24ba-4dce-9105-3bb66ca84f05.svg);
+    }
+    .rentaroo-main-features .laundry-icon::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/252956ab-9eac-4651-9573-8172bbfd73e0.svg);
+    }
+
       /* Room features */
   .b24-room-module .b24-features {
     display: flex;
