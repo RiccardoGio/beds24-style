@@ -291,6 +291,9 @@ footer {
     .rentaroo-main-features .armchair-icon::before {
       background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/efc683eb-9534-4c0f-a72d-98f81e1d5355.svg);
     }
+    .rentaroo-main-features .bathroom-icon::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/33789b54-66ff-4300-8aa6-8e40a5a048c0.svg);
+    }
       /* Room features */
   .b24-room-module .b24-features {
     display: flex;
