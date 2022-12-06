@@ -183,3 +183,14 @@ footer {
   #b24scroller .glyphicon-calendar:before {
     display: none;
   }
+  #formselector {
+    width: 100%;
+  }
+  .button {
+    border: var(--b-m) solid var(--dark);
+    background-color: var(--purple);
+    transition: all 0.3s ease-in;
+  }
+  .button:hover {
+    background-color: var(--teal);
+  }
