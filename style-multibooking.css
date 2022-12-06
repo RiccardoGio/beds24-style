@@ -190,7 +190,46 @@ footer {
     border: var(--b-m) solid var(--dark);
     background-color: var(--purple);
     transition: all 0.3s ease-in;
+    border-radius: 0;
   }
   .button:hover {
     background-color: var(--teal);
+  }
+
+/*------------------------------------------------------------------
+    Media queries: L & XL
+------------------------------------------------------------------*/
+
+  @media screen and (min-width: 768px) {
+    /*------------------------------------------------------------------
+      Filters
+  */
+    #b24scroller-fullcontainer {
+      position: sticky;
+      top: 57px;
+      z-index: 999;
+    }
+    #b24scroller.b24-bookingstrip {
+      margin-bottom: 0;
+      margin-top: 0;
+      box-shadow: 0 12px 12px rgb(138 138 138 / 15%);
+    }
+
+    #b24scroller .row .col-md-1.col-lg-1:first-child,
+    #b24scroller .row .col-md-1.col-lg-1:last-child {
+      display: none;
+    }
+    #b24scroller .row {
+      flex-wrap: wrap;
+    }
+    #b24scroller > * {
+      flex-grow: 1;
+    }
+    #b24scroller .b24-selector-checkin,
+    #b24scroller .b24-selector-checkout {
+      flex-grow: 2;
+    }
+    #b24scroller #inputcheckin, #b24scroller #inputnumadult {
+      border-left: 0;
+    }
   }
