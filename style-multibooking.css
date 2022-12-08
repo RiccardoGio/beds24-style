@@ -245,7 +245,20 @@ footer {
   font-size: 18px;
   line-height: 130%;
 }
-
+/* Header */
+.b24-proppanel-heading {
+  display: flex;
+  flex-direction: row;
+  border-bottom: var(--b-m) solid var(--dark);
+  padding: 0;
+}
+.b24-proppanel-heading .at_propnametext {
+  flex-grow: 2;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 /* Slider */
 .b24panel-prop .b24-prop-slider {
   padding: 0;
