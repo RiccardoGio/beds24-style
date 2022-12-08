@@ -73,7 +73,7 @@ footer {
 .b24fullcontainer-props .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: min-content 1fr;
   gap: 16px 16px;
   grid-template-areas: 'filters filters' 'property property';
   grid-auto-flow: row;
@@ -280,6 +280,7 @@ footer {
   border: 0;
   border-left: var(--b-s) solid var(--dark);
   align-items: center;
+  justify-content: center;
   display: flex;
   font-size: 18px;
 }
@@ -578,10 +579,20 @@ ul.rentaroo-main-features {
   }
   .b24fullcontainer-props .container {
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: min-content;
     gap: 16px 16px;
     grid-template-areas: 'filters' 'property';
     grid-auto-flow: row;
     grid-auto-rows: 1fr;
+  }
+  .b24-proppanel-heading {
+    flex-direction: column;
+  }
+  .propfrombook > a {
+    border-top: var(--b-m) solid var(--dark);
+  }
+  .propfrombook > a > div {
+    width: 100%;
+    flex-grow: 1;
   }
 }
