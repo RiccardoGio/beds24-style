@@ -79,7 +79,7 @@ footer {
 .b24fullcontainer-props > div:not(#b24scroller-fullcontainer) {
   grid-area: property;
 }
-.b24fullcontainer-props > div:not(#b24scroller-fullcontainer) .container:before, .b24fullcontainer-props > div:not(#b24scroller-fullcontainer) .container:after {
+.b24fullcontainer-props .container:before, .b24fullcontainer-props .container:after {
   display: none;
 }
 
