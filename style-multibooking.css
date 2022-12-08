@@ -219,7 +219,7 @@ footer {
 .button {
   border: var(--b-m) solid var(--dark);
   background-color: var(--purple);
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-out;
   border-radius: 0;
 }
 .button:hover {
@@ -233,7 +233,7 @@ footer {
   border: var(--b-m) solid var(--dark);
 }
 .b24panel-prop .panel-body {
-  padding: 0 0 24px 0;
+  padding: 0;
 }
 .b24panel-prop .panel-body::before, .b24panel-prop .panel-body::after {
   display: none;
@@ -566,5 +566,22 @@ ul.rentaroo-main-features {
   #b24scroller #inputcheckin,
   #b24scroller #inputnumadult {
     border-left: 0;
+  }
+}
+
+/*------------------------------------------------------------------
+    Media queries: S & M
+------------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+  input, select {
+      font-size: 18px !important;
+  }
+  .b24fullcontainer-props .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 16px 16px;
+    grid-template-areas: 'filters' 'property';
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
   }
 }
