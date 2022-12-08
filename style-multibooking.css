@@ -235,6 +235,7 @@ footer {
 }
 #formselector .b24-agencysearch {
   width: 100%;
+  padding: 0;
 }
 #formselector > div.clearfix {
   display: none;
@@ -250,7 +251,7 @@ footer {
 #b24scroller .b24-agencysearchlink > a {
   padding: 5px 16px;
   background: var(--light-purple);
-  margin: 6px;
+  margin: 0;
   display: inline-block;
   text-decoration: none;
   border-radius: 50px;
