@@ -303,6 +303,9 @@ footer {
     .rentaroo-main-features .laundry-icon::before {
       background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/252956ab-9eac-4651-9573-8172bbfd73e0.svg);
     }
+    .rentaroo-main-features .map-pin-icon::before {
+      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/ac9d8b50-c1d1-4276-b55c-d92540edcefd.svg);
+    }
 
       /* Room features */
   .b24-room-module .b24-features {
