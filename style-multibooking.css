@@ -225,8 +225,12 @@ footer {
     border: var(--b-m) solid var(--dark);
   }
   .b24panel-prop .panel-body {
-    padding: 0 24px 24px;
+    padding: 0 0 24px 0;
   }
+  .b24panel-prop .row > div {
+    padding: 0 24px;
+  }
+
 
   /* Slider */
   .b24fullcontainer-rooms .b24room .b24-room-slider {
