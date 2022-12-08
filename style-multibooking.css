@@ -235,6 +235,9 @@ footer {
 .b24panel-prop .panel-body {
   padding: 0 0 24px 0;
 }
+.b24panel-prop .panel-body::before, .b24panel-prop .panel-body::after {
+  display: none;
+}
 .b24panel-prop .row {
   margin: 0;
 }
@@ -249,6 +252,9 @@ footer {
 }
 .container > div:not(#b24scroller-fullcontainer) > div, .container > div:not(#b24scroller-fullcontainer) > div > div, .container > div:not(#b24scroller-fullcontainer) > div > div > div {
   height: 100%;
+}
+.b24panel-prop {
+  background-color: var(--white);
 }
 /* Header */
 .b24-proppanel-heading {
@@ -272,10 +278,15 @@ footer {
 .propfrombook .propfrombutton {
   height: 100%;
   border: 0;
-  border-left: 2px solid;
+  border-left: var(--b-s) solid var(--dark);
   align-items: center;
   display: flex;
   font-size: 18px;
+}
+.propfrombook .propfrombutton:hover {
+  background-color: var(--teal);
+  color: var(--dark);
+  border-left: var(--b-s) solid var(--dark);
 }
 
 /* Slider */
