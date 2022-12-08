@@ -54,6 +54,7 @@ sup {
 .colorbody {
   background-color: var(--grey);
   font-size: 16px;
+  color: var(--dark);
 }
 
 /*------------------------------------------------------------------
@@ -237,8 +238,12 @@ footer {
 .b24panel-prop .row {
   margin: 0;
 }
-.b24panel-prop .b24-prop-desc, .b24panel-prop .b24-prop-desc2 {
-  padding: 24px;
+.b24panel-prop .b24-prop-desc, .b24panel-prop .b24-prop-desc2, .b24panel-prop .b24-prop-62 {
+  padding: 12px 24px;
+}
+.b24panel-prop .b24-prop-desc p {
+  font-size: 18px;
+  line-height: 130%;
 }
 
 /* Slider */
@@ -246,7 +251,7 @@ footer {
   padding: 0;
   border: 0;
   width: 100%;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 .carousel-inner {
   border-bottom: var(--b-s) solid var(--dark);
