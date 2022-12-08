@@ -237,7 +237,7 @@ footer {
 .b24panel-prop .row {
   margin: 0;
 }
-.b24panel-prop .b24-prop-desc {
+.b24panel-prop .b24-prop-desc, .b24panel-prop .b24-prop-desc2 {
   padding: 24px;
 }
 
@@ -268,7 +268,7 @@ footer {
 .carousel-control {
   position: absolute;
   top: auto;
-  bottom: 0;
+  bottom: 1px;
   height: 40px;
   width: 40px;
   font-size: 20px;
@@ -424,6 +424,9 @@ ul.rentaroo-main-features {
   transition: opacity 0.3s !important;
   transform: none !important;
   opacity: 1;
+}
+.b24panel-prop .fakelink {
+  color: var(--dark-purple);
 }
 .glyphicon-info-sign::before,
 .glyphicon-remove::before {
