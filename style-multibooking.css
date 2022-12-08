@@ -227,6 +227,9 @@ footer {
   .b24panel-prop .panel-body {
     padding: 0 0 24px 0;
   }
+  .b24panel-prop .row {
+    margin: 0;
+  }
   .b24panel-prop .row > div {
     padding: 0 24px;
   }
