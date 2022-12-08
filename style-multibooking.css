@@ -356,7 +356,21 @@ footer {
     transform: none !important;
     opacity: 1;
   }
-
+  .glyphicon-info-sign::before,
+  .glyphicon-remove::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .glyphicon-info-sign::before {
+    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/9f23b940-3a6c-4c87-8553-26f725ca5471.svg);
+  }
+  .glyphicon-remove::before {
+    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/77d716d1-21f2-4f0f-8489-2f348a46b8be.svg);
+  }
   .b24panel-prop .b24-feature .b24-featurewell h4 {
     display: block;
     color: var(--dark-purple);
