@@ -247,6 +247,9 @@ footer {
   font-size: 18px;
   line-height: 130%;
 }
+.container > div:not(#b24scroller-fullcontainer) > div, .container > div:not(#b24scroller-fullcontainer) > div > div, .container > div:not(#b24scroller-fullcontainer) > div > div > div {
+  height: 100%;
+}
 /* Header */
 .b24-proppanel-heading {
   display: flex;
