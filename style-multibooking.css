@@ -62,6 +62,7 @@ sup {
 ------------------------------------------------------------------*/
 body {
   padding-top: 40px;
+  padding-bottom: 60px;
 }
 footer {
   display: none;
@@ -74,7 +75,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content 1fr;
-  gap: 16px 16px;
+  gap: 24px;
   grid-template-areas: 'filters filters' 'property property';
   grid-auto-flow: row;
   grid-auto-rows: 1fr;
