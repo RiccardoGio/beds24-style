@@ -63,6 +63,9 @@ footer {
   display: none;
 }
 
+/*------------------------------------------------------------------
+  Properties list
+*/
 .b24fullcontainer-props .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -73,10 +76,13 @@ footer {
 .b24fullcontainer-props #b24scroller-fullcontainer {
   grid-area: filters;
 }
-
 .b24fullcontainer-props > div:not(#b24scroller-fullcontainer) {
   grid-area: property;
 }
+.b24fullcontainer-props > div:not(#b24scroller-fullcontainer) .container:before, .b24fullcontainer-props > div:not(#b24scroller-fullcontainer) .container:after {
+  display: none;
+}
+
 /*------------------------------------------------------------------
   Filters
 */
