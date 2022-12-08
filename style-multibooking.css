@@ -63,6 +63,20 @@ footer {
   display: none;
 }
 
+.b24fullcontainer-props .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  gap: 16px 16px;
+  grid-template-areas: "filters filters" "property property" "property property";
+}
+.b24fullcontainer-props #b24scroller-fullcontainer {
+  grid-area: filters;
+}
+
+.b24fullcontainer-props > div:not(#b24scroller-fullcontainer) {
+  grid-area: property;
+}
 /*------------------------------------------------------------------
   Filters
 */
@@ -208,6 +222,7 @@ footer {
       position: sticky;
       top: 57px;
       z-index: 999;
+      margin-bottom: 32px;
     }
     #b24scroller.b24-bookingstrip {
       margin-bottom: 0;
