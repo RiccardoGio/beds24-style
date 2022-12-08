@@ -53,6 +53,7 @@ sup {
 }
 .colorbody {
   background-color: var(--grey);
+  font-size: 16px;
 }
 
 /*------------------------------------------------------------------
