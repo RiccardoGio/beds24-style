@@ -221,6 +221,12 @@ footer {
   /*------------------------------------------------------------------
     Properties cards
   */
+  .b24panel-prop.border {
+    border: var(--b-m) solid var(--dark);
+  }
+  .b24panel-prop .panel-body {
+    padding: 0 24px 24px;
+  }
 
   /* Slider */
   .b24fullcontainer-rooms .b24room .b24-room-slider {
