@@ -235,7 +235,9 @@ footer {
   .b24panel-prop .row > div {
     padding: 0 24px;
   }
-
+  .b24panel-prop .b24-prop-desc {
+    padding: 24px;
+}
 
   /* Slider */
   .b24panel-prop .b24-prop-slider {
@@ -301,7 +303,8 @@ footer {
   }
 
   ol.carousel-indicators {
-    bottom: 0;
+    display: none;
+    /* bottom: 0;
     left: 0;
     padding: 11px;
     margin: 0;
@@ -313,7 +316,7 @@ footer {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
   }
   ol.carousel-indicators li {
     display: inline-block;
