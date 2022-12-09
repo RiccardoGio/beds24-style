@@ -229,7 +229,11 @@ footer {
 .button:hover {
   background-color: var(--teal);
 }
+.multiplebookbutton .b24-multirombutton {
+  float: none;
+  width: 100%;
 
+}
 #formselector {
   display: flex;
   flex-wrap: wrap;
@@ -565,6 +569,12 @@ ul.rentaroo-main-features {
     background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/a2ca3e83-6df0-4196-b588-d43cf961bc32.svg);
   } */
 
+  /*------------------------------------------------------------------
+    Map
+  */
+  .b24-owner-module div[id^="googlemap"] {
+    border: var(--b-l) solid var(--dark);
+  }
 /*------------------------------------------------------------------
     Media queries: L & XL
 ------------------------------------------------------------------*/

@@ -65,9 +65,6 @@ footer {
 #b24scroller {
   border: var(--b-m) solid var(--dark);
 }
-.newsearch {
-  display: none;
-}
   #b24scroller .row .col-md-1.col-lg-1:first-child,
   #b24scroller .row .col-md-1.col-lg-1:last-child {
     display: none;
