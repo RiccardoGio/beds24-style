@@ -243,10 +243,6 @@ footer {
 #formselector > div.clearfix {
   display: none;
 }
-#formselector > div {
-  flex-grow: 1;
-  width: auto;
-}
 #formselector .b24-selector-checkin, #formselector .b24-selector-checkout {
   flex-grow: 2;
 }
@@ -610,6 +606,10 @@ ul.rentaroo-main-features {
   #b24scroller #inputcheckin,
   #b24scroller #inputnumadult {
     border-left: 0;
+  }
+  #formselector > div {
+    flex-grow: 1;
+    width: auto;
   }
 }
 
