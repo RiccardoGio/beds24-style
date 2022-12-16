@@ -268,18 +268,24 @@ footer {
   padding: 16px;
 }
 #b24scroller .b24-panel-advancedsearch ul {
-  margin: 0;
+  margin: 16px 0 0 0;
   display: flex;
+  flex-wrap: wrap;
 }
 #b24scroller .b24-panel-advancedsearch ul li {
   margin-right: 6px;
+  flex-grow: 1;
 }
 #b24scroller .b24-panel-advancedsearch ul li label {
   padding: 8px 16px;
   background-color: var(--white);
+  width: 100%;
 }
 #b24scroller .b24-panel-advancedsearch ul li label input {
   margin-right: 16px;
+}
+#b24scroller .b24-agency-search-checkbox {
+  padding: 0;
 }
 
 /*------------------------------------------------------------------
