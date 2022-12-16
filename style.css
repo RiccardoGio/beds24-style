@@ -23,6 +23,9 @@ sup {
   line-height: normal;
   top: auto;
 }
+.propheader h2 {
+  margin-top: 0;
+}
 
 /*------------------------------------------------------------------
     Variables
@@ -57,7 +60,7 @@ sup {
     Media queries: All (S M L XL)
 ------------------------------------------------------------------*/
 body {
-  padding-top: 40px;
+  padding-top: 70px;
 }
 footer {
   display: none;
