@@ -226,10 +226,15 @@ footer {
 }
 .button:hover {
   background-color: var(--teal);
+  color: var(--dark);
 }
-.multiplebookbutton .b24-multirombutton {
-  float: none;
+#b24scroller .multiplebookbutton {
+  margin: 24px;
+}
+#b24scroller .multiplebookbutton .b24-multirombutton {
+  float: none !important;
   width: 100%;
+  padding: 6px;
 
 }
 #formselector {
@@ -253,7 +258,16 @@ footer {
   margin: 0;
   display: inline-block;
   text-decoration: none;
-  border-radius: 50px;
+  border-radius: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#b24scroller .b24-panel-advancedsearch {
+  background-color: var(--light-purple);
+  padding: 16px;
+}
+#b24scroller .b24-panel-advancedsearch ul {
+  margin-bottom: 0;
 }
 
 /*------------------------------------------------------------------
@@ -567,7 +581,7 @@ ul.rentaroo-main-features {
     Map
   */
   .b24-owner-module div[id^="googlemap"] {
-    border: var(--b-l) solid var(--dark);
+    border: var(--b-m) solid var(--dark);
   }
 /*------------------------------------------------------------------
     Media queries: L & XL
