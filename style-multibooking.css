@@ -61,7 +61,7 @@ sup {
     Media queries: All (S M L XL)
 ------------------------------------------------------------------*/
 body {
-  padding-top: 40px;
+  padding-top: 48px;
   padding-bottom: 60px;
 }
 footer {
@@ -626,9 +626,6 @@ ul.rentaroo-main-features {
     flex-grow: 1;
     width: auto;
   }
-  #b24scroller .multiplebookbutton {
-    margin: 12px 0;
-  }
 }
 
 /*------------------------------------------------------------------
@@ -655,5 +652,8 @@ ul.rentaroo-main-features {
   .propfrombook > a > div {
     width: 100%;
     flex-grow: 1;
+  }
+  #b24scroller .multiplebookbutton {
+    margin: 12px 0;
   }
 }
