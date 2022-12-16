@@ -710,6 +710,11 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
  .b24-optionalvouchercode input.button:hover {
   background-color: var(--teal);
  }
+ .b24-optionalvouchercode .b24panel > div > div:nth-child(2) {
+  padding: 8px 12px;
+  background-color: var(--grey);
+  border: var(--b-xs) solid var(--dark);
+ }
 
  /* Credit card */
 
