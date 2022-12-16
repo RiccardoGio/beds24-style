@@ -229,7 +229,8 @@ footer {
   color: var(--dark);
 }
 #b24scroller .multiplebookbutton {
-  margin: 24px;
+  margin: 24px 7px 24px 24px;
+  min-width: 100px;
 }
 #b24scroller .multiplebookbutton .b24-multirombutton {
   float: none !important;
@@ -624,6 +625,9 @@ ul.rentaroo-main-features {
   #formselector > div {
     flex-grow: 1;
     width: auto;
+  }
+  #b24scroller .multiplebookbutton {
+    margin: 12px 0;
   }
 }
 
