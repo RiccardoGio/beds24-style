@@ -817,8 +817,17 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   border-bottom: var(--b-xs) solid var(--dark-grey);
 }
 .confirmationtable td {
-  padding: 8px 0;
+  padding: 8px 0 !important;
   font-size: 18px;
+  vertical-align: top;
+}
+
+.confirmationtable:first-child tr:first-child {
+  opacity: 0.6;
+}
+
+.confirmationtable td:empty {
+  display: none;
 }
 
 /*------------------------------------------------------------------
