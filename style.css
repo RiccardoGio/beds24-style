@@ -884,7 +884,8 @@ select:focus-visible,
   border:var(--b-m) solid var(--dark);
 }
 #paymentgatewayaccordion .panel-heading h4.panel-title {
-  font-size: 18px;
+  font-size: 20px;
+  color: var(--dark);
 }
 .paymentgatewaycollapse1 {
   padding: 16px;
@@ -896,7 +897,7 @@ select:focus-visible,
   font-size: 20px;
   padding: 10px 24px;
 }
-#paymentgatewaycollapse1 .panelbody {
+#paymentgatewaycollapse1 .panel-body {
   padding: 24px;
 }
 
@@ -908,7 +909,7 @@ select:focus-visible,
   border: 24px solid var(--white);
 }
 .confirmationtable tr {
-  border-bottom: var(--b-xs) solid var(--dark-grey);
+  border-bottom: var(--b-xs) solid var(--light-purple);
 }
 .confirmationtable td {
   padding: 8px 0 !important;
