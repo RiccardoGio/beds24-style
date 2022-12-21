@@ -69,7 +69,8 @@ footer {
 /*------------------------------------------------------------------
   Back button
 */
-.newsearch a, .ppcancelbutton .button {
+.newsearch a,
+.ppcancelbutton .button {
   display: inline-block;
   padding: 8px 16px;
   background: var(--purple);
@@ -79,7 +80,8 @@ footer {
   border: 0;
   font-size: 16px;
 }
-.newsearch a::before, .ppcancelbutton .button::before {
+.newsearch a::before,
+.ppcancelbutton .button::before {
   content: '';
   width: 16px;
   height: 16px;
@@ -95,289 +97,292 @@ footer {
 #b24scroller {
   border: var(--b-m) solid var(--dark);
 }
-  #b24scroller .row .col-md-1.col-lg-1:first-child,
-  #b24scroller .row .col-md-1.col-lg-1:last-child {
-    display: none;
-  }
-  #b24scroller .row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 0;
-  }
-  #b24scroller > * {
-    flex-grow: 1;
-    min-width: 175px;
-  }
-  #b24scroller .col-lg-1,
-  #b24scroller .col-lg-10,
-  #b24scroller .col-lg-11,
-  #b24scroller .col-lg-12,
-  #b24scroller .col-lg-2,
-  #b24scroller .col-lg-3,
-  #b24scroller .col-lg-4,
-  #b24scroller .col-lg-5,
-  #b24scroller .col-lg-6,
-  #b24scroller .col-lg-7,
-  #b24scroller .col-lg-8,
-  #b24scroller .col-lg-9,
-  #b24scroller .col-md-1,
-  #b24scroller .col-md-10,
-  #b24scroller .col-md-11,
-  #b24scroller .col-md-12,
-  #b24scroller .col-md-2,
-  #b24scroller .col-md-3,
-  #b24scroller .col-md-4,
-  #b24scroller .col-md-5,
-  #b24scroller .col-md-6,
-  #b24scroller .col-md-7,
-  #b24scroller .col-md-8,
-  #b24scroller .col-md-9,
-  #b24scroller .col-sm-1,
-  #b24scroller .col-sm-10,
-  #b24scroller .col-sm-11,
-  #b24scroller .col-sm-12,
-  #b24scroller .col-sm-2,
-  #b24scroller .col-sm-3,
-  #b24scroller .col-sm-4,
-  #b24scroller .col-sm-5,
-  #b24scroller .col-sm-6,
-  #b24scroller .col-sm-7,
-  #b24scroller .col-sm-8,
-  #b24scroller .col-sm-9,
-  #b24scroller .col-xs-1,
-  #b24scroller .col-xs-10,
-  #b24scroller .col-xs-11,
-  #b24scroller .col-xs-12,
-  #b24scroller .col-xs-2,
-  #b24scroller .col-xs-3,
-  #b24scroller .col-xs-4,
-  #b24scroller .col-xs-5,
-  #b24scroller .col-xs-6,
-  #b24scroller .col-xs-7,
-  #b24scroller .col-xs-8,
-  #b24scroller .col-xs-9 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  #b24scroller .form-group select,
-  #b24scroller .date .form-control,
-  #b24scroller .input-group-addon {
-    border-radius: 0;
-    border: var(--b-s) solid var(--dark);
-    border-left: 0;
-    padding: 8px 10px;
-    height: 4rem;
-    background-color: var(--grey);
-  }
-  #b24scroller #inputcheckin, #b24scroller #inputnumadult {
-    border-left: var(--b-s) solid;
-  }
+#b24scroller .row .col-md-1.col-lg-1:first-child,
+#b24scroller .row .col-md-1.col-lg-1:last-child {
+  display: none;
+}
+#b24scroller .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 0;
+}
+#b24scroller > * {
+  flex-grow: 1;
+  min-width: 175px;
+}
+#b24scroller .col-lg-1,
+#b24scroller .col-lg-10,
+#b24scroller .col-lg-11,
+#b24scroller .col-lg-12,
+#b24scroller .col-lg-2,
+#b24scroller .col-lg-3,
+#b24scroller .col-lg-4,
+#b24scroller .col-lg-5,
+#b24scroller .col-lg-6,
+#b24scroller .col-lg-7,
+#b24scroller .col-lg-8,
+#b24scroller .col-lg-9,
+#b24scroller .col-md-1,
+#b24scroller .col-md-10,
+#b24scroller .col-md-11,
+#b24scroller .col-md-12,
+#b24scroller .col-md-2,
+#b24scroller .col-md-3,
+#b24scroller .col-md-4,
+#b24scroller .col-md-5,
+#b24scroller .col-md-6,
+#b24scroller .col-md-7,
+#b24scroller .col-md-8,
+#b24scroller .col-md-9,
+#b24scroller .col-sm-1,
+#b24scroller .col-sm-10,
+#b24scroller .col-sm-11,
+#b24scroller .col-sm-12,
+#b24scroller .col-sm-2,
+#b24scroller .col-sm-3,
+#b24scroller .col-sm-4,
+#b24scroller .col-sm-5,
+#b24scroller .col-sm-6,
+#b24scroller .col-sm-7,
+#b24scroller .col-sm-8,
+#b24scroller .col-sm-9,
+#b24scroller .col-xs-1,
+#b24scroller .col-xs-10,
+#b24scroller .col-xs-11,
+#b24scroller .col-xs-12,
+#b24scroller .col-xs-2,
+#b24scroller .col-xs-3,
+#b24scroller .col-xs-4,
+#b24scroller .col-xs-5,
+#b24scroller .col-xs-6,
+#b24scroller .col-xs-7,
+#b24scroller .col-xs-8,
+#b24scroller .col-xs-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+#b24scroller .form-group select,
+#b24scroller .date .form-control,
+#b24scroller .input-group-addon {
+  border-radius: 0;
+  border: var(--b-s) solid var(--dark);
+  border-left: 0;
+  padding: 8px 10px;
+  height: 4rem;
+  background-color: var(--grey);
+}
+#b24scroller #inputcheckin,
+#b24scroller #inputnumadult {
+  border-left: var(--b-s) solid;
+}
 
-  .b24-selector-checkin .form-group, .b24-selector-checkout .form-group {
-    border: 0;
-    text-align: left;
-    box-shadow: none;
-  }
-  #b24scroller #checkin .input-group-addon {
-    border-left: var(--b-s) solid;
-  }
-  #b24scroller #checkin .form-control[disabled],
-  #b24scroller #checkin .form-control[readonly],
-  #b24scroller #checkin fieldset[disabled],
-  #b24scroller #checkin .form-control,
-  #b24scroller .input-group-addon,
-  #b24scroller #checkout .form-control[disabled],
-  #b24scroller #checkout .form-control[readonly],
-  #b24scroller #checkout fieldset[disabled],
-  #b24scroller #checkout .form-control,
-  #b24scroller .input-group-addon {
-    background-color: var(--grey);
-  }
-  #inputcheckin, #inputcheckout {
-    text-align: left;
-  }
-  #b24scroller .glyphicon-calendar {
-    width: 18px;
-    height: 18px;
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/7a66dabd-63d1-4c69-b747-fb54f96cfdf7.svg);
-    background-size: cover;
-  }
-  #b24scroller .glyphicon-calendar:before {
-    display: none;
-  }
+.b24-selector-checkin .form-group,
+.b24-selector-checkout .form-group {
+  border: 0;
+  text-align: left;
+  box-shadow: none;
+}
+#b24scroller #checkin .input-group-addon {
+  border-left: var(--b-s) solid;
+}
+#b24scroller #checkin .form-control[disabled],
+#b24scroller #checkin .form-control[readonly],
+#b24scroller #checkin fieldset[disabled],
+#b24scroller #checkin .form-control,
+#b24scroller .input-group-addon,
+#b24scroller #checkout .form-control[disabled],
+#b24scroller #checkout .form-control[readonly],
+#b24scroller #checkout fieldset[disabled],
+#b24scroller #checkout .form-control,
+#b24scroller .input-group-addon {
+  background-color: var(--grey);
+}
+#inputcheckin,
+#inputcheckout {
+  text-align: left;
+}
+#b24scroller .glyphicon-calendar {
+  width: 18px;
+  height: 18px;
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/7a66dabd-63d1-4c69-b747-fb54f96cfdf7.svg);
+  background-size: cover;
+}
+#b24scroller .glyphicon-calendar:before {
+  display: none;
+}
 
-  /*------------------------------------------------------------------
+/*------------------------------------------------------------------
     Room section
   */
-  .b24fullcontainer-rooms .b24panel > .row {
-    margin-left: 0;
-    margin-right: 0;
-    border-bottom: var(--b-s) solid var(--dark);
-  }
-  .b24fullcontainer-rooms {
-    padding-top: 24px;
-  }
-  .b24fullcontainer-rooms .b24panel-room {
-    margin-bottom: 32px;
-    border: var(--b-m) solid var(--dark);
-  }
-  .b24fullcontainer-rooms .colorbookingform,
-  .b24panel {
-    background-color: var(--white);
-  }
-  .b24fullcontainer-rooms .b24-roompanel-heading {
-    border: 0;
-    border-bottom: var(--b-s) solid;
-  }
-  .b24fullcontainer-rooms .b24room .b24panel-room .row .clearfix {
-    display: none !important;
-  }
-  .b24fullcontainer-rooms .b24room .panel-body {
-    padding: 0 0 16px 0;
-  }
-  .b24fullcontainer-rooms .b24panel {
-    border: 0;
-    background-color: var(--white);
-  }
-  .b24fullcontainer-rooms .b24panel .row .b24module {
-    padding: 16px;
-  }
-  .b24-room-module {
-    padding: 8px 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .glyphicon-info-sign::before,
-  .glyphicon-remove::before {
-    content: '';
-    width: 24px;
-    height: 24px;
-    background-size: contain;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .glyphicon-info-sign::before {
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/9f23b940-3a6c-4c87-8553-26f725ca5471.svg);
-  }
-  .glyphicon-remove::before {
-    background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/77d716d1-21f2-4f0f-8489-2f348a46b8be.svg);
-  }
-    /* Main Features list */
-    ul.rentaroo-main-features {
-      list-style-type: none;
-      width: 100%;
-      height: auto;
-      padding: 0;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-    .rentaroo-main-features li {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      line-height: 1.2em;
-      padding: 4px 10px;
-      border-radius: 20px;
-      background-color: var(--light-purple);
-      color: var(--dark-purple);
-      white-space: nowrap;
-      margin-bottom: 12px;
-      margin-right: 8px;
-    }
+.b24fullcontainer-rooms .b24panel > .row {
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: var(--b-s) solid var(--dark);
+}
+.b24fullcontainer-rooms {
+  padding-top: 24px;
+}
+.b24fullcontainer-rooms .b24panel-room {
+  margin-bottom: 32px;
+  border: var(--b-m) solid var(--dark);
+}
+.b24fullcontainer-rooms .colorbookingform,
+.b24panel {
+  background-color: var(--white);
+}
+.b24fullcontainer-rooms .b24-roompanel-heading {
+  border: 0;
+  border-bottom: var(--b-s) solid;
+}
+.b24fullcontainer-rooms .b24room .b24panel-room .row .clearfix {
+  display: none !important;
+}
+.b24fullcontainer-rooms .b24room .panel-body {
+  padding: 0 0 16px 0;
+}
+.b24fullcontainer-rooms .b24panel {
+  border: 0;
+  background-color: var(--white);
+}
+.b24fullcontainer-rooms .b24panel .row .b24module {
+  padding: 16px;
+}
+.b24-room-module {
+  padding: 8px 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.glyphicon-info-sign::before,
+.glyphicon-remove::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
+}
+.glyphicon-info-sign::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/9f23b940-3a6c-4c87-8553-26f725ca5471.svg);
+}
+.glyphicon-remove::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/77d716d1-21f2-4f0f-8489-2f348a46b8be.svg);
+}
+/* Main Features list */
+ul.rentaroo-main-features {
+  list-style-type: none;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.rentaroo-main-features li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  line-height: 1.2em;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background-color: var(--light-purple);
+  color: var(--dark-purple);
+  white-space: nowrap;
+  margin-bottom: 12px;
+  margin-right: 8px;
+}
 
-    /* icons */
-    .rentaroo-main-features .icon::before {
-      content: '';
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      vertical-align: middle;
-      background-size: contain;
-      background-repeat: no-repeat;
-      margin: 2px 6px 2px 2px;
-    }
-    .rentaroo-main-features .shared-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/8824d473-6d4f-464e-a7fe-0dee40e026ea.svg);
-    }
-    .rentaroo-main-features .surface-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/013140a4-3c9c-46de-9f6d-5bca73545f81.svg);
-    }
-    .rentaroo-main-features .kitchen-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/f679d804-f234-456c-b1ba-c4be2a222cc3.svg);
-    }
-    .rentaroo-main-features .users-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/35dfedd3-f7b0-4899-a80b-ff5176f1752a.svg);
-    }
-    .rentaroo-main-features .terrace-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/a2ca3e83-6df0-4196-b588-d43cf961bc32.svg);
-    }
-    .rentaroo-main-features .armchair-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/efc683eb-9534-4c0f-a72d-98f81e1d5355.svg);
-    }
-    .rentaroo-main-features .bathroom-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/33789b54-66ff-4300-8aa6-8e40a5a048c0.svg);
-    }
-    .rentaroo-main-features .wifi-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/e0ed76ca-8607-4124-b6bd-bdb9cef91fef.svg);
-    }
-    .rentaroo-main-features .tv-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/ddb1d0b4-24ba-4dce-9105-3bb66ca84f05.svg);
-    }
-    .rentaroo-main-features .laundry-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/252956ab-9eac-4651-9573-8172bbfd73e0.svg);
-    }
-    .rentaroo-main-features .map-pin-icon::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/ac9d8b50-c1d1-4276-b55c-d92540edcefd.svg);
-    }
+/* icons */
+.rentaroo-main-features .icon::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 2px 6px 2px 2px;
+}
+.rentaroo-main-features .shared-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/8824d473-6d4f-464e-a7fe-0dee40e026ea.svg);
+}
+.rentaroo-main-features .surface-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/013140a4-3c9c-46de-9f6d-5bca73545f81.svg);
+}
+.rentaroo-main-features .kitchen-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/f679d804-f234-456c-b1ba-c4be2a222cc3.svg);
+}
+.rentaroo-main-features .users-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/35dfedd3-f7b0-4899-a80b-ff5176f1752a.svg);
+}
+.rentaroo-main-features .terrace-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/a2ca3e83-6df0-4196-b588-d43cf961bc32.svg);
+}
+.rentaroo-main-features .armchair-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/efc683eb-9534-4c0f-a72d-98f81e1d5355.svg);
+}
+.rentaroo-main-features .bathroom-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/33789b54-66ff-4300-8aa6-8e40a5a048c0.svg);
+}
+.rentaroo-main-features .wifi-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/e0ed76ca-8607-4124-b6bd-bdb9cef91fef.svg);
+}
+.rentaroo-main-features .tv-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/ddb1d0b4-24ba-4dce-9105-3bb66ca84f05.svg);
+}
+.rentaroo-main-features .laundry-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/252956ab-9eac-4651-9573-8172bbfd73e0.svg);
+}
+.rentaroo-main-features .map-pin-icon::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/ac9d8b50-c1d1-4276-b55c-d92540edcefd.svg);
+}
 
-      /* Room features */
-  .b24-room-module .b24-features {
-    display: flex;
-    flex-direction: column;
-  }
-  .b24-room-module .hidden .b24-feature {
-    opacity: 0;
-    transition: opacity 0.3s !important;
-  }
-  .b24-room-module .b24-feature {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    right: auto !important;
-    width: 100%;
-    transition: opacity 0.3s !important;
-    transform: none !important;
-    opacity: 1;
-  }
+/* Room features */
+.b24-room-module .b24-features {
+  display: flex;
+  flex-direction: column;
+}
+.b24-room-module .hidden .b24-feature {
+  opacity: 0;
+  transition: opacity 0.3s !important;
+}
+.b24-room-module .b24-feature {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  width: 100%;
+  transition: opacity 0.3s !important;
+  transform: none !important;
+  opacity: 1;
+}
 
-  .b24-room-module .b24-feature .b24-featurewell h4 {
-    display: block;
-    color: var(--dark-purple);
-  }
-  .b24-room-module .b24-feature .b24-featurewell p {
-    display: inline-block;
-    color: var(--dark-purple);
-    opacity: 0.7;
-  }
-  .b24-room-module .b24-feature .b24-featurewell p::after {
-    content: ', ';
-  }
-  .b24-room-module .b24-feature .b24-featurewell p:last-child::after {
-    content: '.';
-  }
-  .b24-room-module .b24-feature .b24-featurewell p .glyphicon {
-    display: none;
-  }
+.b24-room-module .b24-feature .b24-featurewell h4 {
+  display: block;
+  color: var(--dark-purple);
+}
+.b24-room-module .b24-feature .b24-featurewell p {
+  display: inline-block;
+  color: var(--dark-purple);
+  opacity: 0.7;
+}
+.b24-room-module .b24-feature .b24-featurewell p::after {
+  content: ', ';
+}
+.b24-room-module .b24-feature .b24-featurewell p:last-child::after {
+  content: '.';
+}
+.b24-room-module .b24-feature .b24-featurewell p .glyphicon {
+  display: none;
+}
 
-  /* Room features icons */
-  .b24-featurewell .fa {
-    display: none;
-  }
-  /* .b24-featurewell .fa::before {
+/* Room features icons */
+.b24-featurewell .fa {
+  display: none;
+}
+/* .b24-featurewell .fa::before {
     content: '';
     width: 24px;
     height: 24px;
@@ -392,72 +397,72 @@ footer {
     background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/a2ca3e83-6df0-4196-b588-d43cf961bc32.svg);
   } */
 
-    /* Slider */
-    .b24fullcontainer-rooms .b24room .b24-room-slider {
-      padding: 0;
-      border: 0;
-      width: 100%;
-      margin-bottom: 12px;
-    }
-    .carousel-inner {
-    border-bottom: var(--b-s) solid var(--dark);
-    }
-    .glyphicon-chevron-right::before,
-    .glyphicon-chevron-left::before {
-      content: '';
-      width: 24px;
-      height: 24px;
-      background-size: cover;
-      display: block;
-    }
-    .glyphicon-chevron-right::before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/96c8fbe8-8331-4d7a-81e1-e95509f76160.svg);
-    }
-    .glyphicon-chevron-left:before {
-      background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/66ab5bf3-429e-4b95-94e9-e8e3a4134c88.svg);
-    }
-    .carousel-control {
-      position: absolute;
-      top: auto;
-      bottom: 0;
-      height: 40px;
-      width: 40px;
-      font-size: 20px;
-      color: darkblue;
-      text-align: center;
-      text-shadow: none;
-      filter: alpha(opacity=50);
-      opacity: 1;
-      background-color: var(--teal);
-      border-top: var(--b-s) solid var(--dark);
-      border-left: var(--b-s) solid var(--dark);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .carousel-control.right {
-      right: 0;
-    }
-    .carousel-control.left {
-      right: 38px;
-      left: auto;
-    }
-    .carousel .carousel-control .glyphicon {
-      display: inline-block;
-      width: auto;
-      height: auto;
-      position: relative;
-      top: auto;
-      left: auto;
-      right: auto;
-      margin: 0;
-      margin-top: 0;
-      margin-left: 0;
-    }
+/* Slider */
+.b24fullcontainer-rooms .b24room .b24-room-slider {
+  padding: 0;
+  border: 0;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.carousel-inner {
+  border-bottom: var(--b-s) solid var(--dark);
+}
+.glyphicon-chevron-right::before,
+.glyphicon-chevron-left::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  display: block;
+}
+.glyphicon-chevron-right::before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/96c8fbe8-8331-4d7a-81e1-e95509f76160.svg);
+}
+.glyphicon-chevron-left:before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/66ab5bf3-429e-4b95-94e9-e8e3a4134c88.svg);
+}
+.carousel-control {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  color: darkblue;
+  text-align: center;
+  text-shadow: none;
+  filter: alpha(opacity=50);
+  opacity: 1;
+  background-color: var(--teal);
+  border-top: var(--b-s) solid var(--dark);
+  border-left: var(--b-s) solid var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-control.right {
+  right: 0;
+}
+.carousel-control.left {
+  right: 38px;
+  left: auto;
+}
+.carousel .carousel-control .glyphicon {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  margin: 0;
+  margin-top: 0;
+  margin-left: 0;
+}
 
-    ol.carousel-indicators {
-      display: none;
-      /* bottom: 0;
+ol.carousel-indicators {
+  display: none;
+  /* bottom: 0;
       left: 0;
       padding: 11px;
       margin: 0;
@@ -470,72 +475,73 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; */
-    }
-    ol.carousel-indicators li {
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      margin: 0 2px;
-      text-indent: -999px;
-      cursor: pointer;
-      background-color: var(--teal);
-      border: var(--b-s) solid var(--dark);
-      border-radius: 16px;
-    }
-    ol.carousel-indicators li.active {
-      background-color: transparent;
-      width: 16px;
-      height: 16px;
-      margin: 0 4px;
-    }
-    .b24-room-slider .carousel {
-      height: 100%;
-     }
+}
+ol.carousel-indicators li {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: var(--teal);
+  border: var(--b-s) solid var(--dark);
+  border-radius: 16px;
+}
+ol.carousel-indicators li.active {
+  background-color: transparent;
+  width: 16px;
+  height: 16px;
+  margin: 0 4px;
+}
+.b24-room-slider .carousel {
+  height: 100%;
+}
 /*------------------------------------------------------------------
   Offer
  */
-  .b24fullcontainer-rooms .offer {
-    width: 100%;
-    padding: 16px 16px 0;
-    background-color: var(--white);
-  }
-  .b24fullcontainer-rooms .offer hr {
-    display: none;
-  }
-  .b24fullcontainer-rooms .offer .button {
-    border: 3px solid;
-    border-radius: 0;
-    max-width: 260px;
-    min-width: 130px;
-    transition: all 0.3s ease-out;
-  }
-  .b24fullcontainer-rooms .offer .button:hover {
-    background: var(--teal);
-    color: var(--dark);
-  }
-  .b24fullcontainer-rooms .offer .b24-offer-summary, .at_offersummary {
-    opacity: 0.7;
-  }
-  .b24fullcontainer-rooms .offer .at_offername {
-    padding-bottom: 0;
-  }
+.b24fullcontainer-rooms .offer {
+  width: 100%;
+  padding: 16px 16px 0;
+  background-color: var(--white);
+}
+.b24fullcontainer-rooms .offer hr {
+  display: none;
+}
+.b24fullcontainer-rooms .offer .button {
+  border: 3px solid;
+  border-radius: 0;
+  max-width: 260px;
+  min-width: 130px;
+  transition: all 0.3s ease-out;
+}
+.b24fullcontainer-rooms .offer .button:hover {
+  background: var(--teal);
+  color: var(--dark);
+}
+.b24fullcontainer-rooms .offer .b24-offer-summary,
+.at_offersummary {
+  opacity: 0.7;
+}
+.b24fullcontainer-rooms .offer .at_offername {
+  padding-bottom: 0;
+}
 
-  .b24fullcontainer-rooms .offer .at_roomofferprice {
-    flex-grow: 1;
-    text-align: left;
-  }
+.b24fullcontainer-rooms .offer .at_roomofferprice {
+  flex-grow: 1;
+  text-align: left;
+}
 
-  .b24-roomwarn {
-    padding: 8px 16px;
-    display: inline-block;
-    border-radius: 0;
-  }
+.b24-roomwarn {
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 0;
+}
 
-  .alert-danger {
-    color: hsl(47deg 21% 53%);
-    background-color: hsl(55deg 62% 88%);
-    border-color: hsl(49deg 37% 81%);
-  }
+.alert-danger {
+  color: hsl(47deg 21% 53%);
+  background-color: hsl(55deg 62% 88%);
+  border-color: hsl(49deg 37% 81%);
+}
 
 .b24fullcontainer-rooms .offer .multiroomhide > div:nth-child(2) {
   display: flex;
@@ -555,7 +561,8 @@ footer {
   border: var(--b-m) solid var(--dark);
   /* border-bottom: 0; */
 }
-#bookingpage .b24-creditcard .border, #bookingpage .b24-bookingdetails .border {
+#bookingpage .b24-creditcard .border,
+#bookingpage .b24-bookingdetails .border {
   border-bottom: var(--b-m) solid var(--dark);
 }
 #bookingpage.bb {
@@ -583,7 +590,11 @@ footer {
   background: var(--light-lime);
   border: var(--b-xs) solid var(--dark);
 }
-select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
+select,
+.booktextinput,
+.booktextareainput,
+.bookselect,
+.inputdiscountphrase {
   padding: 8px 16px 10px 16px;
   line-height: 1.42857143;
   background-color: transparent;
@@ -597,7 +608,11 @@ select, .booktextinput, .booktextareainput, .bookselect, .inputdiscountphrase {
   transition: none;
   width: 100%;
 }
-select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-visible, .bookselect:focus-visible, .inputdiscountphrase:focus-visible {
+select:focus-visible,
+.booktextinput:focus-visible,
+.booktextareainput:focus-visible,
+.bookselect:focus-visible,
+.inputdiscountphrase:focus-visible {
   outline: none;
 }
 .questionrow > div {
@@ -611,15 +626,18 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   border-bottom: var(--b-l) solid var(--purple);
   padding: 0;
 }
-#bookingpage .form-control, .inputdiscountphrase {
+#bookingpage .form-control,
+.inputdiscountphrase {
   font-size: 20px;
   line-height: 120%;
   color: var(--dark);
 }
-#bookingpage .form-control:focus, .inputdiscountphrase:focus {
+#bookingpage .form-control:focus,
+.inputdiscountphrase:focus {
   box-shadow: none;
 }
-.colorbookingform, .b24panel {
+.colorbookingform,
+.b24panel {
   color: var(--dark);
 }
 /* Guest Details */
@@ -628,7 +646,7 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 0 0;
-  grid-template-areas: "first last" "email phone" "company company" "address address" "postcode city" "country country" "arrival arrival" "comments comments";
+  grid-template-areas: 'first last' 'email phone' 'company company' 'address address' 'postcode city' 'country country' 'arrival arrival' 'comments comments';
   padding: 0 0 0 0;
 }
 .b24-guestdetails .panel-body.b24panel::before {
@@ -684,111 +702,158 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   padding: 0;
 }
 .b24-optionalvouchercode .b24panel .form-group > div:first-child {
- flex-grow: 2;
+  flex-grow: 2;
 }
 .b24-optionalvouchercode .b24panel .form-group > div:nth-child(2) {
   flex-grow: 1;
   width: auto;
   min-width: 160px;
- }
- .b24-optionalvouchercode .b24panel .form-group > div:last-child {
+}
+.b24-optionalvouchercode .b24panel .form-group > div:last-child {
   display: none;
- }
- .b24-optionalvouchercode .b24panel .form-group .inputdiscountphrase {
+}
+.b24-optionalvouchercode .b24panel .form-group .inputdiscountphrase {
   width: 100%;
   padding: 16px;
- }
- .b24-optionalvouchercode .b24panel .form-group .inputdiscountphrase:focus-visible {
+}
+.b24-optionalvouchercode .b24panel .form-group .inputdiscountphrase:focus-visible {
   outline: none;
- }
- .b24-optionalvouchercode .b24panel .form-group input.button {
+}
+.b24-optionalvouchercode .b24panel .form-group input.button {
   width: 100%;
   border-radius: 0;
   height: 100%;
   border: 0;
   transition: all 0.3s ease-out;
   color: var(--dark);
- }
- .b24-optionalvouchercode input.button:hover {
+}
+.b24-optionalvouchercode input.button:hover {
   background-color: var(--teal);
- }
- .b24-optionalvouchercode .b24panel > div > div:nth-child(2) {
+}
+.b24-optionalvouchercode .b24panel > div > div:nth-child(2) {
   padding: 8px 12px;
   background-color: var(--grey);
   border: var(--b-xs) solid var(--dark);
- }
- .b24-optionalvouchercode .b24panel > div > div:nth-child(2):empty {
-   padding: 0;
-   background-color: var(--grey);
-   border: 0;
-  }
+}
+.b24-optionalvouchercode .b24panel > div > div:nth-child(2):empty {
+  padding: 0;
+  background-color: var(--grey);
+  border: 0;
+}
 
- /* Credit card */
+/* Credit card */
 
- /* Panel right */
- .b24-guest-details-right .b24panel {
+/* Panel right */
+.b24-guest-details-right .b24panel {
   padding: 16px;
   border: var(--b-xs) solid var(--dark);
- }
- .b24-guest-details-right .b24-roompanel-heading {
+}
+.b24-guest-details-right .b24-roompanel-heading {
   border-bottom: var(--b-s) solid var(--dark);
- }
- .b24-guest-details-right .row {
+}
+.b24-guest-details-right .row {
   margin: 0 0 16px 0;
   margin-right: 0;
   margin-left: 0;
- }
- .b24-guest-details-right .row .col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+}
+.b24-guest-details-right .row .col-lg-12.col-md-12.col-sm-12.col-xs-12 {
   padding: 0;
   padding-left: 0;
   padding-right: 0;
- }
- .b24-guest-details-right img {
+}
+.b24-guest-details-right img {
   margin: 0;
   padding: 0;
   width: 100%;
- }
- .b24-guest-details-right .at_roomnametext {
+}
+.b24-guest-details-right .at_roomnametext {
   /* padding: 8px 16px 16px 0;
   margin: 0; */
- }
- #bookingpage .b24-guest-details-right .b24panel {
+}
+#bookingpage .b24-guest-details-right .b24panel {
   padding: 16px;
- }
- .b24-guest-details-right .at_offername {
+}
+.b24-guest-details-right .at_offername {
   font-size: 20px;
- }
- .b24-guest-details-right .col-lg-1, .b24-guest-details-right  .col-lg-10, .b24-guest-details-right  .col-lg-11, .b24-guest-details-right  .col-lg-12, .b24-guest-details-right  .col-lg-2, .b24-guest-details-right  .col-lg-3, .b24-guest-details-right  .col-lg-4, .b24-guest-details-right  .col-lg-5, .b24-guest-details-right  .col-lg-6, .b24-guest-details-right  .col-lg-7, .b24-guest-details-right  .col-lg-8, .b24-guest-details-right  .col-lg-9, .b24-guest-details-right  .col-md-1, .b24-guest-details-right  .col-md-10, .b24-guest-details-right  .col-md-11, .b24-guest-details-right  .col-md-12, .b24-guest-details-right  .col-md-2, .b24-guest-details-right  .col-md-3, .b24-guest-details-right  .col-md-4, .b24-guest-details-right  .col-md-5, .b24-guest-details-right  .col-md-6, .b24-guest-details-right  .col-md-7, .b24-guest-details-right  .col-md-8, .b24-guest-details-right  .col-md-9, .b24-guest-details-right  .col-sm-1, .b24-guest-details-right  .col-sm-10, .b24-guest-details-right  .col-sm-11, .b24-guest-details-right  .col-sm-12, .b24-guest-details-right  .col-sm-2, .b24-guest-details-right  .col-sm-3, .b24-guest-details-right  .col-sm-4, .b24-guest-details-right  .col-sm-5, .b24-guest-details-right  .col-sm-6, .b24-guest-details-right  .col-sm-7, .b24-guest-details-right  .col-sm-8, .b24-guest-details-right  .col-sm-9, .b24-guest-details-right  .col-xs-1, .b24-guest-details-right  .col-xs-10, .b24-guest-details-right  .col-xs-11, .b24-guest-details-right  .col-xs-12, .b24-guest-details-right  .col-xs-2, .b24-guest-details-right  .col-xs-3, .b24-guest-details-right  .col-xs-4, .b24-guest-details-right  .col-xs-5, .b24-guest-details-right  .col-xs-6, .b24-guest-details-right  .col-xs-7, .b24-guest-details-right  .col-xs-8, .b24-guest-details-right  .col-xs-9 {
+}
+.b24-guest-details-right .col-lg-1,
+.b24-guest-details-right .col-lg-10,
+.b24-guest-details-right .col-lg-11,
+.b24-guest-details-right .col-lg-12,
+.b24-guest-details-right .col-lg-2,
+.b24-guest-details-right .col-lg-3,
+.b24-guest-details-right .col-lg-4,
+.b24-guest-details-right .col-lg-5,
+.b24-guest-details-right .col-lg-6,
+.b24-guest-details-right .col-lg-7,
+.b24-guest-details-right .col-lg-8,
+.b24-guest-details-right .col-lg-9,
+.b24-guest-details-right .col-md-1,
+.b24-guest-details-right .col-md-10,
+.b24-guest-details-right .col-md-11,
+.b24-guest-details-right .col-md-12,
+.b24-guest-details-right .col-md-2,
+.b24-guest-details-right .col-md-3,
+.b24-guest-details-right .col-md-4,
+.b24-guest-details-right .col-md-5,
+.b24-guest-details-right .col-md-6,
+.b24-guest-details-right .col-md-7,
+.b24-guest-details-right .col-md-8,
+.b24-guest-details-right .col-md-9,
+.b24-guest-details-right .col-sm-1,
+.b24-guest-details-right .col-sm-10,
+.b24-guest-details-right .col-sm-11,
+.b24-guest-details-right .col-sm-12,
+.b24-guest-details-right .col-sm-2,
+.b24-guest-details-right .col-sm-3,
+.b24-guest-details-right .col-sm-4,
+.b24-guest-details-right .col-sm-5,
+.b24-guest-details-right .col-sm-6,
+.b24-guest-details-right .col-sm-7,
+.b24-guest-details-right .col-sm-8,
+.b24-guest-details-right .col-sm-9,
+.b24-guest-details-right .col-xs-1,
+.b24-guest-details-right .col-xs-10,
+.b24-guest-details-right .col-xs-11,
+.b24-guest-details-right .col-xs-12,
+.b24-guest-details-right .col-xs-2,
+.b24-guest-details-right .col-xs-3,
+.b24-guest-details-right .col-xs-4,
+.b24-guest-details-right .col-xs-5,
+.b24-guest-details-right .col-xs-6,
+.b24-guest-details-right .col-xs-7,
+.b24-guest-details-right .col-xs-8,
+.b24-guest-details-right .col-xs-9 {
   padding-right: 16px;
   padding-left: 0;
- }
- .b24-guest-details-right .b24-checkout-divder {
+}
+.b24-guest-details-right .b24-checkout-divder {
   display: none;
- }
- .b24-guest-details-right .totalpricerow {
+}
+.b24-guest-details-right .totalpricerow {
   padding: 16px 0;
   border-top: var(--b-s) solid var(--dark);
   margin-bottom: 0;
   font-size: 20px;
- }
- .b24-guest-details-right .row div:last-child {
+}
+.b24-guest-details-right .row div:last-child {
   padding-right: 0;
- }
- /* Error message */
- .b24-guest-details-left .booktexterrordiv {
+}
+/* Error message */
+.b24-guest-details-left .booktexterrordiv {
   padding: 0;
   color: var(--dark-red);
   background-color: var(--light-red);
   max-width: 100%;
-  border-radius:0;
+  border-radius: 0;
   border: 0;
- }
- .booktexterrordiv .booktexterror {
-  padding: 4px 16px 0 16px ;
- }
+}
+.booktexterrordiv .booktexterror {
+  padding: 4px 16px 0 16px;
+}
 
- /* Submit */
- #bookingpage .book_confirmbookingbut {
+/* Submit */
+#bookingpage .book_confirmbookingbut {
   border: var(--b-m) solid var(--dark);
   background: var(--purple);
   transition: all 0.3s ease-out;
@@ -810,7 +875,9 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
 .confirmation .conf_p {
   font-size: 18px;
 }
-
+.paymentgatewayaccordion .panel-heading h4.panel-title {
+  font-size: 18px;
+}
 .paymentgatewaycollapse1 {
   padding: 16px;
 }
@@ -821,10 +888,14 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   font-size: 20px;
   padding: 10px 24px;
 }
+.paymentgatewaycollapse1 .panelbody {
+  padding: 24px;
+}
 
 /* Side table */
 .confirmationtable {
   width: 100%;
+  background-color: var(--white);
 }
 .confirmationtable tr {
   border-bottom: var(--b-xs) solid var(--dark-grey);
@@ -834,21 +905,25 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   font-size: 18px;
   vertical-align: top;
 }
-
 .confirmationtable:first-child tr:first-child {
   opacity: 0.6;
 }
-
 .confirmationtable td:empty {
   display: none;
 }
+.confirmationtable td:first-child {
+  color: var(--dark-purple);
+  font-size: 14px;
+}
+
 
 /*------------------------------------------------------------------
     Media queries: S & M
 ------------------------------------------------------------------*/
 @media only screen and (max-width: 767px) {
-  input, select {
-      font-size: 18px !important;
+  input,
+  select {
+    font-size: 18px !important;
   }
 }
 
@@ -885,7 +960,8 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   #b24scroller .b24-selector-checkout {
     flex-grow: 2;
   }
-  #b24scroller #inputcheckin, #b24scroller #inputnumadult {
+  #b24scroller #inputcheckin,
+  #b24scroller #inputnumadult {
     border-left: 0;
   }
   /*------------------------------------------------------------------
@@ -895,59 +971,52 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
   .b24fullcontainer-rooms .b24panel > .row {
     display: grid;
     grid-template-columns: 41.66666667% 1fr;
-    grid-template-areas: "slider description" "slider features" ;
+    grid-template-areas: 'slider description' 'slider features';
     gap: 0;
     justify-items: stretch;
   }
 
-    /* Slider */
-    .b24fullcontainer-rooms .b24room .b24-room-slider {
-      border-right: var(--b-s) solid var(--dark);
-      width: 100%;
-      grid-area: slider;
-      align-self: stretch;
-      justify-self: stretch;
-      margin-bottom: 0;
-    }
-
-   /* Aside */
-   .b24-room-desc {
+  /* Slider */
+  .b24fullcontainer-rooms .b24room .b24-room-slider {
+    border-right: var(--b-s) solid var(--dark);
     width: 100%;
-   grid-area: description;
-   justify-self: stretch;
+    grid-area: slider;
+    align-self: stretch;
+    justify-self: stretch;
+    margin-bottom: 0;
   }
- .b24-room-106 {
-   width: 100%;
-  grid-area: features;
-  justify-self: stretch;
- }
-/*------------------------------------------------------------------
-  Offer
-*/
-.b24fullcontainer-rooms .offer .multiroomhide {
-  transform: translateY(-50%);
-  text-align: right;
-}
-.b24fullcontainer-rooms .offer .multiroomhide > div:nth-child(2) {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-}
-.b24fullcontainer-rooms .offer .at_roomofferprice {
-  text-align: right;
-}
 
-/*------------------------------------------------------------------
-  Payment form
-*/
-#bookingpage .questionrow > div .questionrow > div {
-  width: 100%;
-}
+  /* Aside */
+  .b24-room-desc {
+    width: 100%;
+    grid-area: description;
+    justify-self: stretch;
+  }
+  .b24-room-106 {
+    width: 100%;
+    grid-area: features;
+    justify-self: stretch;
+  }
+  /*------------------------------------------------------------------
+    Offer
+  */
+  .b24fullcontainer-rooms .offer .multiroomhide {
+    transform: translateY(-50%);
+    text-align: right;
+  }
+  .b24fullcontainer-rooms .offer .multiroomhide > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  .b24fullcontainer-rooms .offer .at_roomofferprice {
+    text-align: right;
+  }
 
-}
-
-@media print {
-  * {
-    color: red !important;
+  /*------------------------------------------------------------------
+    Payment form
+  */
+  #bookingpage .questionrow > div .questionrow > div {
+    width: 100%;
   }
 }
