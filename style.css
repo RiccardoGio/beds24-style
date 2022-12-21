@@ -798,6 +798,19 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
 }
 
 /*------------------------------------------------------------------
+  Payment page
+*/
+.confirmationtable {
+  width: 100%;
+}
+.confirmationtable tr {
+  border-bottom: var(--b-xs) solid var(--dark-grey);
+}
+.confirmationtable td {
+  padding: 8px 0;
+}
+
+/*------------------------------------------------------------------
     Media queries: S & M
 ------------------------------------------------------------------*/
 @media only screen and (max-width: 767px) {
