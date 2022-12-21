@@ -875,11 +875,14 @@ select:focus-visible,
 .confirmation .conf_p {
   font-size: 18px;
 }
-#paymentgatewayaccordion .panel-heading {
-  padding: 24px;
+#paymentgatewayaccordion .panel-default>.panel-heading {
+  padding: 16px;
   background-color: var(--lime);
+  border-bottom: var(--b-s) solid var(--dark);
 }
-
+#paymentgatewayaccordion .panel-default {
+  border:var(--b-m) solid var(--dark);
+}
 #paymentgatewayaccordion .panel-heading h4.panel-title {
   font-size: 18px;
 }
@@ -893,7 +896,7 @@ select:focus-visible,
   font-size: 20px;
   padding: 10px 24px;
 }
-.paymentgatewaycollapse1 .panelbody {
+#paymentgatewaycollapse1 .panelbody {
   padding: 24px;
 }
 
