@@ -77,6 +77,7 @@ footer {
   text-decoration: none;
   border-radius: 50px;
   border: 0;
+  font-size: 16px;
 }
 .newsearch a::before, .ppcancelbutton .button::before {
   content: '';
@@ -801,12 +802,24 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
 /*------------------------------------------------------------------
   Payment page
 */
+/* header */
 .conf_header {
   font-size: 200%;
   margin-bottom: 24px;
 }
 .confirmation .conf_p {
   font-size: 18px;
+}
+
+.paymentgatewaycollapse1 {
+  padding: 16px;
+}
+.paymentgatewayinstruction {
+  padding-bottom: 16px;
+}
+.paymentgatewaybutton .paybutton {
+  font-size: 20px;
+  padding: 10px 24px;
 }
 
 /* Side table */
