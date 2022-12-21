@@ -76,6 +76,7 @@ footer {
   color: var(--dark);
   text-decoration: none;
   border-radius: 50px;
+  border: 0;
 }
 .newsearch a::before, .ppcancelbutton .button::before {
   content: '';
@@ -807,9 +808,6 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
 .confirmation .conf_p {
   font-size: 18px;
 }
-.ppcancelbutton .button [
-
-]
 
 /* Side table */
 .confirmationtable {
