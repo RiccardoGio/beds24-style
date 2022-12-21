@@ -69,7 +69,7 @@ footer {
 /*------------------------------------------------------------------
   Back button
 */
-.newsearch a {
+.newsearch a, .ppcancelbutton .button {
   display: inline-block;
   padding: 8px 16px;
   background: var(--purple);
@@ -77,7 +77,7 @@ footer {
   text-decoration: none;
   border-radius: 50px;
 }
-.newsearch a::before {
+.newsearch a::before, .ppcancelbutton .button::before {
   content: '';
   width: 16px;
   height: 16px;
@@ -800,6 +800,18 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
 /*------------------------------------------------------------------
   Payment page
 */
+.conf_header {
+  font-size: 200%;
+  margin-bottom: 24px;
+}
+.confirmation .conf_p {
+  font-size: 18px;
+}
+.ppcancelbutton .button [
+
+]
+
+/* Side table */
 .confirmationtable {
   width: 100%;
 }
@@ -808,6 +820,7 @@ select:focus-visible, .booktextinput:focus-visible, .booktextareainput:focus-vis
 }
 .confirmationtable td {
   padding: 8px 0;
+  font-size: 18px;
 }
 
 /*------------------------------------------------------------------
