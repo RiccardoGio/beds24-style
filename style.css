@@ -896,6 +896,8 @@ select:focus-visible,
 .confirmationtable {
   width: 100%;
   background-color: var(--white);
+  margin-bottom: 32px;
+  border: 24px solid var(--white);
 }
 .confirmationtable tr {
   border-bottom: var(--b-xs) solid var(--dark-grey);
@@ -913,7 +915,6 @@ select:focus-visible,
 }
 .confirmationtable td:first-child {
   color: var(--dark-purple);
-  font-size: 14px;
 }
 
 
