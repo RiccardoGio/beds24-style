@@ -87,7 +87,7 @@ footer {
 }
 .newsearch a::before,
 .ppcancelbutton .button::before,
-.book_bookingbackright .fakebutton::before
+.book_bookingbackright .fakebutton::before,
 .book_bookingback .fakebutton::before {
   content: '';
   width: 16px;
