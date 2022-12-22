@@ -90,6 +90,7 @@ footer {
   content: '';
   width: 16px;
   height: 16px;
+  margin-right: 8px;
   background-size: cover;
   display: inline-block;
   vertical-align: middle;
