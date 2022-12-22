@@ -542,9 +542,10 @@ ol.carousel-indicators li.active {
 }
 
 .alert-danger {
-  color: hsl(47deg 21% 53%);
-  background-color: hsl(55deg 62% 88%);
-  border-color: hsl(49deg 37% 81%);
+  color: #858f23;
+  background-color: hsl(57deg 93% 88%);
+  border: 0;
+  font-weight: normal;
 }
 
 .b24fullcontainer-rooms .offer .multiroomhide > div:nth-child(2) {
@@ -923,11 +924,12 @@ select:focus-visible,
 /* Stripe */
 .panel.panel-default.panel-pay-stripe h4:before, .panel.panel-default.panel-pay-paypal h4:before {
   content: '';
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   display: inline-block;
   margin-right: 8px;
   background-size: cover;
+  vertical-align: middle;
 }
 /* Paypal */
 .panel.panel-default.panel-pay-paypal h4:before {
