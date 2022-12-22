@@ -871,6 +871,9 @@ select:focus-visible,
 #bookingpage {
   font-weight: normal !important;
 }
+#bookingpage .questionrow {
+  padding-top: 0;
+}
 .conf_header {
   font-size: 200%;
   margin-bottom: 24px;
@@ -899,8 +902,14 @@ select:focus-visible,
 .paymentgatewaybutton .paybutton {
   font-size: 20px;
   padding: 10px 24px;
+  margin-top: 24px;
 }
-#paymentgatewaycollapse1 .panel-body {
+.paymentgatewaybutton .questionrow {
+  background-color: var(--grey);
+  padding: 0;
+  margin-bottom: 2px;
+}
+.panel-collapse .panel-body {
   padding: 24px;
 }
 
