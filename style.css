@@ -865,7 +865,7 @@ select:focus-visible,
 }
 
 /*------------------------------------------------------------------
-  Payment page
+  Payment page (PayPal, Stripe etc.)
 */
 /* header */
 #bookingpage {
@@ -899,18 +899,18 @@ select:focus-visible,
 .paymentgatewayinstruction {
   padding-bottom: 16px;
 }
-.paymentgatewaybutton .paybutton {
+#bookingpage .paymentgatewaybutton .paybutton {
   font-size: 20px;
   padding: 10px 24px;
   margin-top: 24px;
 }
-.paymentgatewaybutton .questionrow {
+#bookingpage .paymentgatewaybutton .questionrow {
   background-color: var(--grey);
   padding: 16px;
   margin-bottom: 2px;
   border: 0;
 }
-.paymentgatewaybutton .questionrow .booktextinput {
+#bookingpage .paymentgatewaybutton .questionrow .booktextinput {
   padding: 0;
 }
 .panel-collapse .panel-body {
