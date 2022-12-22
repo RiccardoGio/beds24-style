@@ -90,10 +90,11 @@ footer {
   content: '';
   width: 16px;
   height: 16px;
+  vertical-align: sub;
   margin-right: 8px;
+  margin-bottom: 2px;
   background-size: cover;
   display: inline-block;
-  vertical-align: middle;
   background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/ac88148a-919d-49d2-aa1d-698d38126593.svg);
 }
 
