@@ -868,6 +868,9 @@ select:focus-visible,
   Payment page
 */
 /* header */
+#bookingpage {
+  font-weight: normal !important;
+}
 .conf_header {
   font-size: 200%;
   margin-bottom: 24px;
