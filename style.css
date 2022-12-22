@@ -871,6 +871,9 @@ select:focus-visible,
 #bookingpage {
   font-weight: normal !important;
 }
+#bookingpage .conf_header {
+  font-weight: normal;
+}
 #bookingpage .questionrow {
   padding-top: 0;
 }
