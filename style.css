@@ -542,7 +542,7 @@ ol.carousel-indicators li.active {
 }
 
 .alert-danger {
-  color: #858f23;
+  color: hsl(57deg 25% 45%);
   background-color: hsl(57deg 93% 88%);
   border: 0;
   font-weight: normal;
