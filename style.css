@@ -921,14 +921,21 @@ select:focus-visible,
   padding: 24px;
 }
 /* Stripe */
-.panel.panel-default.panel-pay-stripe h4:before {
+.panel.panel-default.panel-pay-stripe h4:before, .panel.panel-default.panel-pay-paypal h4:before {
   content: '';
   width: 24px;
   height: 24px;
   display: inline-block;
   margin-right: 8px;
-  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/bf36f572-1e4f-4bf3-ab3a-a4cbadc449ba.png);
   background-size: cover;
+}
+/* Paypal */
+.panel.panel-default.panel-pay-paypal h4:before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/0cfb9247-1d51-4a89-a84b-704f05f0f929.png);
+}
+/* Stripe */
+.panel.panel-default.panel-pay-stripe h4:before {
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/bf36f572-1e4f-4bf3-ab3a-a4cbadc449ba.png);
 }
 
 /* Side table */
