@@ -875,7 +875,7 @@ select:focus-visible,
 #bookingpage {
   font-weight: normal !important;
 }
-#bookingpage .conf_header {
+#bookingpage .conf_header, .paymentgatewayinstruction {
   font-weight: normal;
 }
 .conf_header {
@@ -919,6 +919,16 @@ select:focus-visible,
 }
 .panel-collapse .panel-body {
   padding: 24px;
+}
+/* Stripe */
+.panel.panel-default.panel-pay-stripe h4:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 8px;
+  background-image: url(https://storageaccountdigit93d1.blob.core.windows.net/gio-site/bf36f572-1e4f-4bf3-ab3a-a4cbadc449ba.png);
+  background-size: cover;
 }
 
 /* Side table */
