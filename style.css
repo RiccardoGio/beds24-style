@@ -906,8 +906,12 @@ select:focus-visible,
 }
 .paymentgatewaybutton .questionrow {
   background-color: var(--grey);
-  padding: 0;
+  padding: 16px;
   margin-bottom: 2px;
+  border: 0;
+}
+.paymentgatewaybutton .questionrow .booktextinput {
+  padding: 0;
 }
 .panel-collapse .panel-body {
   padding: 24px;
