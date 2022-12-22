@@ -74,7 +74,8 @@ footer {
 */
 .newsearch a,
 .ppcancelbutton .button,
-.book_bookingbackright .fakebutton {
+.book_bookingbackright .fakebutton,
+.book_bookingback .fakebutton {
   display: inline-block;
   padding: 8px 16px;
   background: var(--purple);
@@ -86,7 +87,8 @@ footer {
 }
 .newsearch a::before,
 .ppcancelbutton .button::before,
-.book_bookingbackright .fakebutton::before {
+.book_bookingbackright .fakebutton::before
+.book_bookingback .fakebutton::before {
   content: '';
   width: 16px;
   height: 16px;
