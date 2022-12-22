@@ -243,6 +243,8 @@ footer {
 .b24fullcontainer-rooms .b24-roompanel-heading {
   border: 0;
   border-bottom: var(--b-s) solid;
+  background-color: var(--lime);
+  padding: 12px;
 }
 .b24fullcontainer-rooms .b24room .b24panel-room .row .clearfix {
   display: none !important;
