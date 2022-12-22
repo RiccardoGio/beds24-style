@@ -641,6 +641,7 @@ select:focus-visible,
 #bookingpage .form-control,
 .inputdiscountphrase {
   font-size: 20px;
+  font-weight: normal;
   line-height: 120%;
   color: var(--dark);
 }
