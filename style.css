@@ -26,6 +26,9 @@ sup {
 .propheader h2 {
   margin-top: 0;
 }
+.at_roomnametext, .at_propnametext {
+  font-weight: normal;
+}
 
 /*------------------------------------------------------------------
     Variables
@@ -70,7 +73,8 @@ footer {
   Back button
 */
 .newsearch a,
-.ppcancelbutton .button {
+.ppcancelbutton .button,
+.book_bookingbackright .fakebutton {
   display: inline-block;
   padding: 8px 16px;
   background: var(--purple);
@@ -81,7 +85,8 @@ footer {
   font-size: 16px;
 }
 .newsearch a::before,
-.ppcancelbutton .button::before {
+.ppcancelbutton .button::before,
+.book_bookingbackright .fakebutton::before {
   content: '';
   width: 16px;
   height: 16px;
